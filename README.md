@@ -8,7 +8,7 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 
 | Name in this repo | What it is |
 |---|---|
-| **VM B** (`microvm-current`) | The current Krexa sandbox runtime (Rust). A KVM microVM per call with no network device, a 0.86 MB single-binary guest, snapshot restore and a warm pool. |
+| **VM B** (`microvm-current`) | The current Krexa sandbox runtime (Rust). A KVM microVM per call with no network device, a 0.88 MB single-binary guest, snapshot restore and a warm pool. |
 | **VM A** (`microvm-first`) | Our first microVM runtime (TypeScript host, Python guest on an Alpine root filesystem). Used as the baseline. |
 | **Native engine** (`js-engine/native`) | QuickJS-NG in native Rust (`jsbox`), run in a pool of seccomp-confined worker processes (`jsd`). |
 | **WASM baseline** (`js-engine/wasm-baseline`) | The production engine: QuickJS compiled to WebAssembly (quickjs-emscripten 0.32.0) on Bun 1.4.4. |
@@ -22,7 +22,7 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 
 ## Results
 
-**Table 3. MicroVM performance on AWS `c8i.4xlarge` (nested virtualization; 100 runs per value).**
+**Table 3. MicroVM performance on AWS `c8i.4xlarge` (nested virtualization; typically 100 runs per value; n per row in the bench-*.json files).**
 
 | Metric | VM A (first runtime) | VM B (current runtime) | Change |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 | Memory, paused VM (PSS, MiB) | not measured | 3.1 | — |
 | Memory per VM, 16 VMs sharing one snapshot (PSS, MiB) | not measured | 5.7 | — |
 | Idle CPU, 16 / 64 idle VMs (% of one CPU, total) | not measured | 0.8 / 3.2 | — |
-| Maximum concurrent VMs per host | run failed (note 2) | 487 | — |
+| Maximum concurrent VMs per host | run aborted (note 2) | 487 started, 429 answering at the end | — |
 | Host daemon memory (RSS, MiB) / idle CPU | — | 4.3–5.2 / 0% | — |
 | Isolation suite | 8/9 pass | 12/12 pass | — |
 
@@ -64,11 +64,11 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 | Setup | Decisions per second | Idle CPU | Memory per worker |
 |---|---|---|---|
 | Old: WASM pool, 2 workers (best, at concurrency 64) | 3,867 | 0.33% of one core | ≈12.2 MiB RSS per worker thread |
-| New: sandboxed pool, 2 workers | 7,836 | below 0.03% (below measurement resolution) | 3.2–3.9 MiB RSS idle |
-| New: sandboxed pool, 14 workers, through the API's Bun client | 16,851 (4.4×) | — | — |
-| New: sandboxed pool, 14 workers, native load generator | 21,633 | — | — |
+| New: process pool, 2 workers, through the Bun client | 7,836 (2.0×) | below 0.03% (below measurement resolution) | 3.2–3.9 MiB RSS idle; up to 9.7 MiB after 20,000 calls |
+| New: process pool, 14 workers, through the Bun client | 16,851 | — | — |
+| New: process pool, 14 workers, native load generator | 21,633 | — | — |
 
-**Correctness.** The native engine gives the same decision as the production WebAssembly engine in 4,092 of 4,092 differential comparisons (624 cases × 3 seeds and 444 cases × 5 seeds). 14 cases per run differ only in error-message wording. See [`data/js-engine/differential/`](data/js-engine/differential/).
+**Correctness.** The native engine gives the same decision as the production WebAssembly engine in every differential comparison: 444 cases × 5 seeds (2,220 comparisons, raw output in this repo) and 624 cases × 3 seeds (1,872 comparisons, raw output not retained). 14 cases per run differ only in error-message wording. See [`data/js-engine/differential/`](data/js-engine/differential/).
 
 **Table 4. Order-path latency (ms; Apple M4 Pro host; p50 / p99).**
 
@@ -89,8 +89,8 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 | Base mainnet RPC | 253 | 376 |
 | Monad mainnet RPC | 114 | 202 |
 | Polymarket CLOB | not measured: blocked by the ISP at DNS level | — |
-| Binance futures | not measured: blocked by the ISP | — |
-| Jupiter | not measured: rate limited (85% HTTP 429) | — |
+| Binance futures | 1 of 20 succeeded (ISP block): 227 | 202 (20 of 20) |
+| Jupiter | 174 (29 of 200; 85% HTTP 429) | 195 (30 of 200) |
 
 **Table 5a. Sandbox isolation suite, run inside real guests on AWS `c8i.4xlarge`.**
 
@@ -121,7 +121,7 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 | `data/microvm-current/apple-m4-nested/` | VM B on the Apple host (nested) |
 | `data/microvm-first/aws-c8i/` | VM A on AWS: cold boot, restore, memory, ping, isolation |
 | `data/microvm-first/apple-m4-nested/` | VM A on the Apple host (nested), including the density ramp |
-| `data/js-engine/native/` | Native engine and sandboxed pool: per-run CSVs, `summary.jsonl`, `rust-summary.jsonl`, `jsd-load.jsonl` |
+| `data/js-engine/native/` | Native engine and process pool: per-run CSVs, `summary.jsonl`, `rust-summary.jsonl`, `jsd-load.jsonl` |
 | `data/js-engine/wasm-baseline/` | Production WebAssembly engine: latency, kill time, memory, density, idle CPU |
 | `data/js-engine/differential/` | Differential test output against the production engine |
 | `data/enforcement-path/` | Gateway → signer latency, throughput, KMS envelope, venue round trips |
@@ -132,6 +132,7 @@ Notes on the raw files:
 
 ## Caveats
 
+- The JS engine and process-pool timings were measured on macOS, where the worker seccomp filter does not apply (resource limits only). On Linux the filter is on; it was tested for correctness, not timed.
 - All microVM numbers are nested virtualization. Bare-metal numbers are pending and are expected to be lower.
 - The AWS and Apple values for the same code differ by 2.8× to 7.9×; compare only rows from the same host.
 - The maximum-concurrency figure uses a 10 s readiness stop criterion, not a clean capacity limit.
