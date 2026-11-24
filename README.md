@@ -51,7 +51,7 @@ Every number below comes from the raw files in [`data/`](data/). No value is est
 
 **Table 3b. Strategy engine, time per decision (ms, p50 / p99; Apple M4 Pro, native).** Each call uses a fresh JavaScript context, as in production.
 
-| Workload | Old: WASM, in-thread | Old: WASM, worker pool | New: native engine | New: sandboxed process pool |
+| Workload | Old: WASM, in-thread | Old: WASM, worker pool | New: native engine | New: process pool |
 |---|---|---|---|---|
 | Trivial strategy (n = 5,000) | 0.17 / 0.21 | 0.20 / 0.26 | 0.09 / 0.22 | 0.14 / 0.19 |
 | DIP strategy, 120 bars (n = 5,000) | 0.43 / 0.50 | 0.50 / 0.72 | 0.20 / 0.28 | 0.34 / 0.40 |
