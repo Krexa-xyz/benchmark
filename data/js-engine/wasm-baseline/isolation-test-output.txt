@@ -1,5 +1,5 @@
 
- RUN  v5.1.0 /Users/USER/Projects/krexa/Krexa/.claude/worktrees/paper-eval/apps/api
+ RUN  v5.1.0 <repo>/apps/api
 
  ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > sanity: the host really holds the secret 1ms
  ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > process, process.env, Bun.env and every other host global are undefined 128ms
