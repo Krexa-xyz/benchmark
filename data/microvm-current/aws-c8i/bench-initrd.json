@@ -1,0 +1,44 @@
+[
+  {
+    "bench": "initrd",
+    "id": "initrd_zst",
+    "max": 265.938,
+    "mean": 253.797,
+    "metric": "cold boot to ready, initramfs .zst",
+    "min": 246.269,
+    "n": 33,
+    "note": "file 879549 B",
+    "p50": 253.891,
+    "p95": 265.677,
+    "p99": 265.938,
+    "unit": "ms"
+  },
+  {
+    "bench": "initrd",
+    "id": "initrd_lz4",
+    "max": 260.709,
+    "mean": 253.427,
+    "metric": "cold boot to ready, initramfs .lz4",
+    "min": 247.02,
+    "n": 33,
+    "note": "file 1134666 B",
+    "p50": 252.993,
+    "p95": 258.976,
+    "p99": 260.709,
+    "unit": "ms"
+  },
+  {
+    "bench": "initrd",
+    "id": "initrd_gz",
+    "max": 269.04,
+    "mean": 259.355,
+    "metric": "cold boot to ready, initramfs .gz",
+    "min": 251.953,
+    "n": 33,
+    "note": "file 994818 B",
+    "p50": 259.534,
+    "p95": 268.235,
+    "p99": 269.04,
+    "unit": "ms"
+  }
+]

@@ -1,0 +1,2081 @@
+endpoint,mode,run,ms,status
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,0,119.662,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,0,210.854,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,1,129.148,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,0,254.239,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,1,223.973,200
+"Hyperliquid POST /info allMids",warm,0,332.667,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,2,109.492,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,1,298.593,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,3,147.719,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,2,242.574,200
+"Hyperliquid POST /info allMids",warm,1,267.951,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,4,117.707,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,3,104.031,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,2,245.268,200
+"Hyperliquid POST /info allMids",warm,2,207.343,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,5,111.860,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,4,213.395,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,6,117.723,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,3,237.161,200
+"Hyperliquid POST /info allMids",warm,3,213.468,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,5,146.663,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,7,189.854,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,4,241.130,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,6,139.228,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,8,126.729,200
+"Hyperliquid POST /info allMids",warm,4,383.836,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,7,123.777,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,5,241.416,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,9,113.631,200
+"Hyperliquid POST /info allMids",warm,5,186.983,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,8,229.275,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,10,139.848,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,6,265.768,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,11,116.697,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,9,260.770,429
+"Hyperliquid POST /info allMids",warm,6,379.213,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,7,271.857,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,12,153.876,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,10,169.766,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,13,115.024,200
+"Hyperliquid POST /info allMids",warm,7,332.204,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,8,255.262,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,14,132.843,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,11,207.338,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,15,116.762,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,9,244.709,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,12,168.310,429
+"Hyperliquid POST /info allMids",warm,8,316.222,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,16,169.421,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,13,107.924,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,10,244.144,200
+"Hyperliquid POST /info allMids",warm,9,261.330,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,17,111.668,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,14,214.176,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,18,126.616,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,11,249.205,200
+"Hyperliquid POST /info allMids",warm,10,356.351,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,15,206.007,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,19,112.504,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,12,247.174,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,20,112.788,200
+"Hyperliquid POST /info allMids",warm,11,206.148,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,16,206.560,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,13,260.126,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,21,195.163,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,17,139.010,429
+"Hyperliquid POST /info allMids",warm,12,339.037,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,22,138.940,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,18,225.139,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,14,266.536,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,23,111.503,200
+"Hyperliquid POST /info allMids",warm,13,183.664,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,19,124.959,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,24,112.100,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,15,256.519,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,20,270.299,429
+"Hyperliquid POST /info allMids",warm,14,342.176,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,25,169.372,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,16,262.223,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,26,117.870,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,21,128.639,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,27,116.179,200
+"Hyperliquid POST /info allMids",warm,15,384.434,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,17,241.863,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,22,173.140,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,28,122.904,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,23,184.645,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,18,252.339,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,29,158.665,200
+"Hyperliquid POST /info allMids",warm,16,350.123,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,24,173.208,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,30,131.947,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,19,246.820,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,25,106.082,429
+"Hyperliquid POST /info allMids",warm,17,324.770,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,31,152.240,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,20,259.973,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,26,185.951,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,32,114.008,200
+"Hyperliquid POST /info allMids",warm,18,317.805,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,33,110.207,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,27,213.450,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,21,300.283,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,34,144.941,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,28,138.439,429
+"Hyperliquid POST /info allMids",warm,19,333.455,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,35,112.851,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,22,334.883,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,29,204.690,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,36,112.569,200
+"Hyperliquid POST /info allMids",warm,20,335.266,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,30,172.218,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,37,113.975,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,23,257.814,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,31,104.092,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,38,110.776,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,24,257.262,200
+"Hyperliquid POST /info allMids",warm,21,362.261,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,39,112.026,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,32,170.575,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,40,138.075,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,25,240.286,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,33,209.575,429
+"Hyperliquid POST /info allMids",warm,22,365.202,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,41,122.054,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,34,127.944,429
+"Polymarket CLOB GET /time",warm,0,5000.748,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,0,5000.738,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,0,5000.745,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,26,255.386,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,42,113.477,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,35,124.990,429
+"Hyperliquid POST /info allMids",warm,23,338.577,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,43,110.605,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,27,236.983,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,36,125.176,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,44,116.332,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,37,172.874,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,45,113.481,200
+"Hyperliquid POST /info allMids",warm,24,353.218,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,28,242.087,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,38,117.074,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,46,126.597,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,29,238.511,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,39,111.419,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,47,109.596,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,40,110.147,429
+"Hyperliquid POST /info allMids",warm,25,499.303,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,48,112.377,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,30,243.743,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,49,113.748,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,41,173.891,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,31,265.577,200
+"Hyperliquid POST /info allMids",warm,26,359.906,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,50,124.404,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,42,167.943,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,51,109.716,200
+"Hyperliquid POST /info allMids",warm,27,188.007,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,32,249.333,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,43,173.190,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,52,140.432,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,44,106.765,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,53,111.715,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,33,263.058,200
+"Hyperliquid POST /info allMids",warm,28,390.448,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,45,170.475,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,54,127.844,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,34,255.663,200
+"Hyperliquid POST /info allMids",warm,29,193.814,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,55,111.674,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,46,242.142,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,56,110.239,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,35,254.131,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,47,172.271,429
+"Hyperliquid POST /info allMids",warm,30,366.772,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,57,119.622,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,48,187.147,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,58,109.561,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,36,303.365,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,59,109.374,200
+"Hyperliquid POST /info allMids",warm,31,347.871,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,49,221.323,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,60,111.165,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,37,261.553,200
+"Hyperliquid POST /info allMids",warm,32,205.093,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,50,213.210,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,61,133.545,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,38,303.692,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,62,110.997,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,51,175.645,429
+"Hyperliquid POST /info allMids",warm,33,317.695,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,52,116.171,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,63,130.349,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,39,302.585,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,64,113.180,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,53,121.973,429
+"Hyperliquid POST /info allMids",warm,34,350.793,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,65,112.195,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,40,237.973,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,54,173.816,429
+"Polymarket CLOB GET /time",warm,1,5000.839,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,1,5000.818,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,1,5000.816,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,66,112.442,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,55,106.583,429
+"Hyperliquid POST /info allMids",warm,35,351.881,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,41,238.469,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,67,114.314,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,56,211.013,429
+"Hyperliquid POST /info allMids",warm,36,207.019,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,68,111.036,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,42,274.818,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,69,110.835,200
+"Hyperliquid POST /info allMids",warm,37,205.993,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,57,289.613,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,70,147.186,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,43,299.270,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,58,217.391,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,71,110.281,200
+"Hyperliquid POST /info allMids",warm,38,349.862,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,72,115.920,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,44,330.293,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,59,207.749,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,73,123.233,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,60,104.764,429
+"Hyperliquid POST /info allMids",warm,39,342.637,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,45,246.416,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,74,123.316,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,61,169.249,429
+"Hyperliquid POST /info allMids",warm,40,206.331,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,75,128.544,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,46,256.792,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,62,212.723,429
+"Hyperliquid POST /info allMids",warm,41,185.450,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,76,120.342,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,77,113.344,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,47,253.000,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,63,213.917,429
+"Hyperliquid POST /info allMids",warm,42,214.927,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,78,141.675,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,64,147.397,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,48,275.822,200
+"Hyperliquid POST /info allMids",warm,43,217.683,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,79,114.451,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,65,201.893,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,80,116.147,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,49,283.643,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,66,119.631,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,81,112.671,200
+"Hyperliquid POST /info allMids",warm,44,407.097,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,67,105.240,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,82,110.599,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,50,311.236,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,68,107.150,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,83,121.902,200
+"Hyperliquid POST /info allMids",warm,45,349.495,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,69,110.908,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,51,241.366,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,84,114.226,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,70,129.113,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,85,110.447,200
+"Hyperliquid POST /info allMids",warm,46,329.908,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,52,251.957,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,86,109.152,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,71,171.003,429
+"Hyperliquid POST /info allMids",warm,47,225.410,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,72,105.004,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,87,114.185,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,53,242.381,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,73,105.553,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,88,115.891,200
+"Polymarket CLOB GET /time",warm,2,5000.757,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,2,5000.735,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,2,5000.759,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,54,259.979,200
+"Hyperliquid POST /info allMids",warm,48,350.217,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,89,116.710,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,74,218.170,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,90,119.260,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,55,252.987,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,75,170.677,200
+"Hyperliquid POST /info allMids",warm,49,322.364,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,91,116.473,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,76,129.825,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,92,114.227,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,56,242.434,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,77,122.969,429
+"Hyperliquid POST /info allMids",warm,50,361.906,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,93,125.702,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,57,258.418,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,78,128.312,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,94,113.691,200
+"Hyperliquid POST /info allMids",warm,51,211.927,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,79,170.908,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,95,127.607,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,58,260.885,200
+"Hyperliquid POST /info allMids",warm,52,204.139,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,96,117.047,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,80,137.273,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,59,246.683,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,81,106.578,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,97,119.180,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,98,126.738,200
+"Hyperliquid POST /info allMids",warm,53,440.218,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,82,186.410,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,60,253.325,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,99,117.771,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,83,206.673,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,100,123.760,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,61,249.879,200
+"Hyperliquid POST /info allMids",warm,54,357.369,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,84,124.088,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,101,112.270,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,62,239.047,200
+"Hyperliquid POST /info allMids",warm,55,207.248,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,85,171.158,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,102,109.140,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,86,104.076,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,103,111.498,200
+"Hyperliquid POST /info allMids",warm,56,235.718,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,63,246.451,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,87,124.380,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,104,148.114,200
+"Hyperliquid POST /info allMids",warm,57,219.251,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,64,259.827,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,105,111.781,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,88,207.072,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,106,114.524,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,65,249.716,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,89,200.374,429
+"Hyperliquid POST /info allMids",warm,58,356.739,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,107,121.503,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,90,106.812,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,108,112.562,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,66,259.147,200
+"Hyperliquid POST /info allMids",warm,59,312.760,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,109,111.657,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,91,204.738,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,67,238.771,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,110,114.525,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,92,169.631,429
+"Hyperliquid POST /info allMids",warm,60,356.589,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,111,113.495,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,68,320.167,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,93,210.956,429
+"Polymarket CLOB GET /time",warm,3,5001.129,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,3,5001.108,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,3,5001.131,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,112,126.309,200
+"Hyperliquid POST /info allMids",warm,61,314.663,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,94,168.402,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,113,176.726,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,69,277.177,200
+"Hyperliquid POST /info allMids",warm,62,215.979,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,114,129.418,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,95,238.225,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,70,307.375,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,115,151.314,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,96,134.764,429
+"Hyperliquid POST /info allMids",warm,63,355.547,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,116,114.373,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,97,121.454,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,71,373.503,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,117,113.835,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,98,172.577,429
+"Hyperliquid POST /info allMids",warm,64,322.968,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,118,111.007,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,99,104.428,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,72,248.493,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,119,145.927,200
+"Hyperliquid POST /info allMids",warm,65,327.193,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,100,207.006,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,120,111.466,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,73,290.434,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,101,126.220,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,121,109.985,200
+"Hyperliquid POST /info allMids",warm,66,230.864,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,102,146.744,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,122,108.711,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,74,282.033,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,123,114.148,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,103,171.799,429
+"Hyperliquid POST /info allMids",warm,67,379.578,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,75,251.546,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,124,111.842,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,104,207.833,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,125,108.943,200
+"Hyperliquid POST /info allMids",warm,68,317.274,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,76,272.427,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,105,108.568,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,126,125.470,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,106,123.429,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,127,113.970,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,77,255.546,200
+"Hyperliquid POST /info allMids",warm,69,356.058,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,128,114.847,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,107,213.064,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,78,264.053,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,129,112.555,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,108,209.220,429
+"Hyperliquid POST /info allMids",warm,70,357.069,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,130,115.155,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,109,123.527,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,79,301.665,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,131,121.189,200
+"Hyperliquid POST /info allMids",warm,71,361.917,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,132,110.060,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,110,221.482,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,80,260.298,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,133,108.240,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,111,208.433,429
+"Hyperliquid POST /info allMids",warm,72,318.389,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,81,243.409,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,134,109.540,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,112,170.630,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,135,108.800,200
+"Polymarket CLOB GET /time",warm,4,5000.808,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,4,5000.761,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,4,5000.783,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,82,250.986,200
+"Hyperliquid POST /info allMids",warm,73,311.601,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,136,112.825,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,113,175.090,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,137,114.325,200
+"Hyperliquid POST /info allMids",warm,74,235.598,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,83,250.653,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,114,231.924,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,138,112.469,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,84,237.632,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,115,171.411,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,139,110.021,200
+"Hyperliquid POST /info allMids",warm,75,297.995,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,140,110.171,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,116,216.666,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,85,241.516,200
+"Hyperliquid POST /info allMids",warm,76,207.224,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,141,110.171,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,117,218.548,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,142,109.995,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,86,241.370,200
+"Hyperliquid POST /info allMids",warm,77,353.848,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,143,109.197,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,118,209.780,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,87,249.520,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,144,123.011,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,119,167.389,429
+"Hyperliquid POST /info allMids",warm,78,354.287,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,145,111.073,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,88,250.794,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,146,112.360,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,120,212.978,429
+"Hyperliquid POST /info allMids",warm,79,207.424,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,147,115.879,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,89,257.896,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,121,123.002,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,148,113.896,200
+"Hyperliquid POST /info allMids",warm,80,357.345,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,122,207.573,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,90,251.746,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,149,110.552,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,123,207.213,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,150,134.155,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,91,252.325,200
+"Hyperliquid POST /info allMids",warm,81,358.000,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,151,107.809,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,124,121.803,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,152,115.688,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,92,298.455,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,125,166.709,429
+"Hyperliquid POST /info allMids",warm,82,345.363,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,153,112.379,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,126,169.015,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,93,250.661,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,154,124.883,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,127,122.804,429
+"Hyperliquid POST /info allMids",warm,83,426.654,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,155,111.262,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,94,250.972,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,128,102.884,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,156,109.894,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,129,211.537,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,157,109.378,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,95,242.566,200
+"Hyperliquid POST /info allMids",warm,84,358.260,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,158,110.741,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,130,204.061,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,96,246.930,200
+"Polymarket CLOB GET /time",warm,5,5001.124,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,5,5001.105,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,5,5001.142,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,159,134.103,200
+"Hyperliquid POST /info allMids",warm,85,344.217,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,131,101.890,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,160,132.130,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,97,245.847,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,132,203.460,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,161,111.917,200
+"Hyperliquid POST /info allMids",warm,86,352.585,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,98,253.168,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,162,116.763,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,133,205.149,429
+"Hyperliquid POST /info allMids",warm,87,221.327,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,134,101.058,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,163,110.866,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,99,241.087,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,164,109.095,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,135,168.265,429
+"Hyperliquid POST /info allMids",warm,88,374.802,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,165,126.475,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,100,263.917,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,136,102.878,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,166,106.783,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,137,100.657,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,101,251.869,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,167,110.202,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,138,181.286,429
+"Hyperliquid POST /info allMids",warm,89,447.598,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,168,112.307,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,102,248.175,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,139,121.617,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,169,114.054,200
+"Hyperliquid POST /info allMids",warm,90,354.214,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,140,205.559,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,103,244.137,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,170,115.138,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,171,117.360,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,141,208.825,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,104,242.632,200
+"Hyperliquid POST /info allMids",warm,91,379.413,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,172,122.953,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,142,175.696,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,173,109.279,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,105,249.722,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,143,172.939,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,174,107.943,200
+"Hyperliquid POST /info allMids",warm,92,378.728,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,106,276.691,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,175,110.299,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,144,212.914,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,176,119.256,200
+"Hyperliquid POST /info allMids",warm,93,373.114,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,107,248.067,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,145,206.727,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,177,113.212,200
+"Hyperliquid POST /info allMids",warm,94,187.331,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,178,110.968,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,146,208.437,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,108,299.610,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,179,120.463,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,147,103.195,429
+"Hyperliquid POST /info allMids",warm,95,317.907,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,180,114.142,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,109,275.645,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,148,122.514,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,181,114.060,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,149,173.570,200
+"Hyperliquid POST /info allMids",warm,96,326.010,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,110,240.467,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,182,112.314,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,150,106.950,200
+"Polymarket CLOB GET /time",warm,6,5000.270,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,6,5000.264,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,6,5000.291,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,183,111.015,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,111,244.467,200
+"Hyperliquid POST /info allMids",warm,97,420.478,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,184,109.327,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,112,336.535,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,185,199.798,200
+"Hyperliquid POST /info allMids",warm,98,245.566,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,151,643.629,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,186,188.206,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,113,325.502,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,152,286.791,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,187,176.942,200
+"Hyperliquid POST /info allMids",warm,99,458.915,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,114,237.893,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,188,114.183,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,153,229.015,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,189,110.491,200
+"Hyperliquid POST /info allMids",warm,100,310.468,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,154,123.580,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,115,248.768,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,190,116.347,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,155,213.301,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,191,109.018,200
+"Hyperliquid POST /info allMids",warm,101,357.082,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,116,264.755,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,192,114.071,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,156,169.679,429
+"Hyperliquid POST /info allMids",warm,102,220.932,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,117,253.070,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,193,108.710,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,157,166.473,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,194,110.890,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,158,173.786,429
+"Hyperliquid POST /info allMids",warm,103,318.243,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,195,108.818,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,118,347.452,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,159,123.246,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,196,112.610,200
+"Hyperliquid POST /info allMids",warm,104,356.995,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,197,116.809,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,160,205.192,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,119,428.949,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,198,127.211,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,161,172.571,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",warm,199,108.071,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,120,250.088,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,162,103.778,429
+"Hyperliquid POST /info allMids",warm,105,441.047,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,163,192.427,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,121,239.154,200
+"Hyperliquid POST /info allMids",warm,106,321.615,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,0,213.105,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,164,124.117,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,122,272.650,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,165,121.534,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,1,193.823,200
+"Hyperliquid POST /info allMids",warm,107,313.418,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,166,124.597,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,123,246.841,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,2,196.012,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,167,103.316,429
+"Polymarket CLOB GET /time",warm,7,5000.442,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,7,5000.442,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,7,5000.459,TimeoutError
+"Hyperliquid POST /info allMids",warm,108,355.539,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,3,198.606,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,124,242.223,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,168,206.492,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,4,190.328,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,125,243.611,200
+"Hyperliquid POST /info allMids",warm,109,313.313,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,169,215.118,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,5,221.284,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,170,126.590,429
+"Hyperliquid POST /info allMids",warm,110,195.040,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,126,241.053,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,6,186.370,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,171,167.121,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,127,263.867,200
+"Hyperliquid POST /info allMids",warm,111,319.966,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,7,186.201,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,172,168.089,429
+"Hyperliquid POST /info allMids",warm,112,206.882,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,128,247.990,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,8,200.482,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,173,206.788,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,129,245.291,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,174,165.680,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,9,190.330,200
+"Hyperliquid POST /info allMids",warm,113,316.171,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,175,101.611,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,10,198.132,200
+"Hyperliquid POST /info allMids",warm,114,207.385,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,130,259.734,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,176,168.345,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,11,204.518,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,131,248.568,200
+"Hyperliquid POST /info allMids",warm,115,312.647,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,177,211.682,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,12,202.940,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,132,239.455,200
+"Hyperliquid POST /info allMids",warm,116,204.042,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,178,213.672,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,13,199.002,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,179,162.875,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,133,242.140,200
+"Hyperliquid POST /info allMids",warm,117,355.755,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,14,246.239,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,180,214.022,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,134,270.359,200
+"Hyperliquid POST /info allMids",warm,118,186.212,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,15,216.987,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,181,230.219,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,135,314.164,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,16,235.312,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,182,122.958,429
+"Hyperliquid POST /info allMids",warm,119,351.076,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,183,174.353,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,17,207.655,200
+"Hyperliquid POST /info allMids",warm,120,205.467,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,136,309.754,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,184,170.281,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,18,208.709,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,137,267.989,200
+"Hyperliquid POST /info allMids",warm,121,373.680,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,185,210.266,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,19,210.100,200
+"Polymarket CLOB GET /time",warm,8,5001.137,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,8,5001.119,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,8,5001.115,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,138,249.157,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,186,203.808,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,20,179.304,200
+"Hyperliquid POST /info allMids",warm,122,355.592,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,187,123.593,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,139,268.760,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,21,195.020,200
+"Hyperliquid POST /info allMids",warm,123,222.156,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,188,213.197,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,22,198.957,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,140,248.930,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,189,122.881,429
+"Hyperliquid POST /info allMids",warm,124,238.048,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,23,203.959,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,141,246.397,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,190,169.772,429
+"Hyperliquid POST /info allMids",warm,125,359.053,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,24,194.974,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,142,243.354,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,191,214.373,429
+"Hyperliquid POST /info allMids",warm,126,211.143,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,25,263.988,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,192,186.863,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,143,308.581,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,193,102.676,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,26,190.677,200
+"Hyperliquid POST /info allMids",warm,127,356.304,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,144,244.447,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,194,206.835,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,27,223.704,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,195,104.995,429
+"Hyperliquid POST /info allMids",warm,128,313.214,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,145,249.719,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,28,195.216,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,196,164.658,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,146,254.196,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,29,179.216,200
+"Hyperliquid POST /info allMids",warm,129,354.302,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,197,211.994,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,30,222.097,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,147,263.818,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,198,207.416,429
+"Hyperliquid POST /info allMids",warm,130,320.739,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,31,193.864,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,148,245.424,200
+"Jupiter GET lite-api /price/v3 (SOL)",warm,199,213.308,429
+"Hyperliquid POST /info allMids",warm,131,204.005,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,32,206.083,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,149,249.192,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,33,206.101,200
+"Hyperliquid POST /info allMids",warm,132,352.766,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,34,183.201,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,150,358.980,200
+"Hyperliquid POST /info allMids",warm,133,357.532,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,35,213.705,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,151,262.830,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,36,198.489,200
+"Polymarket CLOB GET /time",warm,9,5001.123,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,9,5001.108,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,9,5001.133,TimeoutError
+"Hyperliquid POST /info allMids",warm,134,364.323,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,152,250.169,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,0,171.573,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,37,175.575,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,153,256.110,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,1,185.048,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,38,218.790,200
+"Hyperliquid POST /info allMids",warm,135,454.152,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,2,174.084,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,154,257.472,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,39,200.502,200
+"Hyperliquid POST /info allMids",warm,136,313.606,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,3,177.290,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,155,253.148,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,40,200.557,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,4,167.480,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,41,186.956,200
+"Hyperliquid POST /info allMids",warm,137,363.708,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,156,288.885,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,5,186.659,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,42,219.205,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,6,182.414,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,157,245.747,200
+"Hyperliquid POST /info allMids",warm,138,365.235,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,43,197.658,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,7,176.173,429
+"Hyperliquid POST /info allMids",warm,139,206.452,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,158,258.284,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,44,202.120,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,8,214.497,429
+"Hyperliquid POST /info allMids",warm,140,227.825,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,159,256.790,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,45,180.097,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,9,168.781,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,160,263.286,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,46,202.376,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,10,170.679,429
+"Hyperliquid POST /info allMids",warm,141,351.539,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,11,170.638,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,47,200.668,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,161,252.256,200
+"Hyperliquid POST /info allMids",warm,142,318.456,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,12,191.991,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,48,223.771,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,162,265.837,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,13,195.288,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,49,183.933,200
+"Hyperliquid POST /info allMids",warm,143,399.219,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,163,249.793,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,14,186.926,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,50,208.364,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,164,251.509,200
+"Hyperliquid POST /info allMids",warm,144,356.132,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,15,178.132,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,51,199.959,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,16,194.807,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,52,213.900,200
+"Hyperliquid POST /info allMids",warm,145,315.569,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,165,403.878,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,17,208.579,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,53,192.596,200
+"Polymarket CLOB GET /time",warm,10,5000.247,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,10,5000.225,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,10,5000.262,TimeoutError
+"Hyperliquid POST /info allMids",warm,146,355.576,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,166,301.864,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,18,196.226,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,54,197.722,200
+"Hyperliquid POST /info allMids",warm,147,223.349,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,19,200.476,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,167,256.372,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,55,221.184,200
+"Hyperliquid POST /info allMids",warm,148,194.247,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,20,197.541,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,56,180.105,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,168,271.596,200
+"Hyperliquid POST /info allMids",warm,149,187.086,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,21,216.827,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,57,183.872,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,169,305.121,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,22,190.297,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,58,184.313,200
+"Hyperliquid POST /info allMids",warm,150,348.111,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,170,241.959,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,23,186.532,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,59,209.397,200
+"Hyperliquid POST /info allMids",warm,151,306.512,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,24,174.681,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,171,253.729,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,60,191.142,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,25,181.857,429
+"Hyperliquid POST /info allMids",warm,152,317.512,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,61,195.293,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,172,249.851,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,26,207.820,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,62,196.278,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,173,297.085,200
+"Hyperliquid POST /info allMids",warm,153,425.061,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,27,218.633,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,63,218.916,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,174,251.357,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,28,178.285,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,64,186.884,200
+"Hyperliquid POST /info allMids",warm,154,321.810,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,29,200.327,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,175,245.966,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,65,179.912,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,30,163.319,429
+"Hyperliquid POST /info allMids",warm,155,356.763,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,176,241.254,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,66,194.729,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,31,175.206,429
+"Hyperliquid POST /info allMids",warm,156,183.547,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,67,212.294,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,177,243.086,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,32,199.459,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,68,225.116,200
+"Hyperliquid POST /info allMids",warm,157,352.183,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,178,258.152,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,33,186.981,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,69,203.268,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,34,174.164,429
+"Hyperliquid POST /info allMids",warm,158,348.691,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,179,320.381,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,70,190.356,200
+"Polymarket CLOB GET /time",warm,11,5000.858,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,11,5000.842,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,11,5000.839,TimeoutError
+"Jupiter GET lite-api /price/v3 (SOL)",cold,35,186.021,429
+"Hyperliquid POST /info allMids",warm,159,213.138,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,180,246.820,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,71,212.360,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,36,271.542,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,181,251.496,200
+"Hyperliquid POST /info allMids",warm,160,375.497,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,72,237.577,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,37,218.246,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,182,266.748,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,73,210.131,200
+"Hyperliquid POST /info allMids",warm,161,240.176,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,38,173.238,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,74,185.653,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,183,278.786,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,39,205.845,429
+"Hyperliquid POST /info allMids",warm,162,380.953,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,75,280.862,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,40,187.740,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,184,320.390,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,76,179.689,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,41,166.969,429
+"Hyperliquid POST /info allMids",warm,163,357.236,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,185,248.175,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,42,178.746,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,77,192.262,200
+"Hyperliquid POST /info allMids",warm,164,376.641,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,186,248.695,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,78,218.977,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,43,232.896,429
+"Hyperliquid POST /info allMids",warm,165,217.754,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,44,180.568,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,187,278.942,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,79,196.065,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,45,176.281,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,80,183.897,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,188,252.699,200
+"Hyperliquid POST /info allMids",warm,166,431.357,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,46,205.059,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,81,227.675,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,189,313.607,200
+"Hyperliquid POST /info allMids",warm,167,317.765,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,47,263.651,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,82,224.288,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,190,304.511,200
+"Hyperliquid POST /info allMids",warm,168,225.276,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,48,183.226,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,83,188.920,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,49,186.179,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,84,200.438,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,191,318.831,200
+"Hyperliquid POST /info allMids",warm,169,352.917,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,50,235.049,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,192,247.107,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,85,330.185,200
+"Hyperliquid POST /info allMids",warm,170,307.455,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,51,177.596,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,86,221.276,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,193,256.214,200
+"Polymarket CLOB GET /time",warm,12,5001.105,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,12,5001.086,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,12,5001.088,TimeoutError
+"Jupiter GET lite-api /price/v3 (SOL)",cold,52,174.839,429
+"Hyperliquid POST /info allMids",warm,171,349.340,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,87,203.884,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,194,246.608,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,53,176.598,200
+"Hyperliquid POST /info allMids",warm,172,368.954,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,88,285.548,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,195,249.031,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,54,259.543,429
+"Hyperliquid POST /info allMids",warm,173,190.656,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,89,191.440,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,55,190.043,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,196,248.525,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,90,196.272,200
+"Hyperliquid POST /info allMids",warm,174,206.259,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,56,176.755,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,197,247.489,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,91,232.258,200
+"Hyperliquid POST /info allMids",warm,175,232.304,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,57,198.109,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,198,256.065,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,58,181.835,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,92,198.512,200
+"Hyperliquid POST /info allMids",warm,176,224.231,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",warm,199,250.719,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,93,200.470,200
+"Hyperliquid POST /info allMids",warm,177,214.195,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,59,267.738,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,94,206.435,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,60,170.227,429
+"Hyperliquid POST /info allMids",warm,178,211.455,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,95,232.482,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,61,223.984,429
+"Hyperliquid POST /info allMids",warm,179,314.041,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,0,388.973,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,96,184.346,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,62,192.387,429
+"Hyperliquid POST /info allMids",warm,180,227.952,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,63,206.257,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,97,235.315,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,1,427.881,200
+"Hyperliquid POST /info allMids",warm,181,189.718,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,64,266.472,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,98,278.375,200
+"Hyperliquid POST /info allMids",warm,182,363.481,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,2,422.082,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,65,239.544,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,99,286.307,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,66,213.739,429
+"Hyperliquid POST /info allMids",warm,183,346.828,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,3,335.416,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,100,244.270,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,67,227.393,429
+"Hyperliquid POST /info allMids",warm,184,204.013,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,101,286.788,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,4,410.864,200
+"Polymarket CLOB GET /time",warm,13,5000.359,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,13,5000.339,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,13,5000.354,TimeoutError
+"Hyperliquid POST /info allMids",warm,185,234.551,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,68,243.453,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,102,214.183,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,69,197.239,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,5,311.456,200
+"Hyperliquid POST /info allMids",warm,186,301.996,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,103,205.348,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,70,254.790,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,6,374.021,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,104,269.143,200
+"Hyperliquid POST /info allMids",warm,187,400.727,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,71,185.863,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,105,188.085,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,72,177.249,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,7,375.553,200
+"Hyperliquid POST /info allMids",warm,188,351.468,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,106,219.112,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,73,203.178,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,8,343.068,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,107,207.429,200
+"Hyperliquid POST /info allMids",warm,189,318.858,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,74,301.357,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,108,248.028,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,9,373.577,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,75,206.843,429
+"Hyperliquid POST /info allMids",warm,190,367.662,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,109,219.494,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,76,193.807,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,10,473.268,200
+"Hyperliquid POST /info allMids",warm,191,408.024,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,110,251.436,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,77,262.665,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,111,223.382,200
+"Hyperliquid POST /info allMids",warm,192,373.459,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,78,236.281,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,11,388.200,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,112,248.980,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,79,218.351,429
+"Hyperliquid POST /info allMids",warm,193,325.110,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,113,275.266,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,12,459.946,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,80,270.186,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,114,223.043,200
+"Hyperliquid POST /info allMids",warm,194,427.200,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,81,206.055,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,13,397.145,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,115,200.601,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,82,199.716,200
+"Hyperliquid POST /info allMids",warm,195,363.680,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,14,321.280,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,116,231.072,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,83,222.284,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,117,222.639,200
+"Hyperliquid POST /info allMids",warm,196,336.154,200
+"Polymarket CLOB GET /time",warm,14,5001.126,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,14,5001.106,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,14,5001.126,TimeoutError
+"Jupiter GET lite-api /price/v3 (SOL)",cold,84,197.413,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,15,369.384,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,118,201.767,200
+"Hyperliquid POST /info allMids",warm,197,225.990,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,85,172.656,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,16,392.905,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,119,204.939,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,86,183.387,429
+"Hyperliquid POST /info allMids",warm,198,388.280,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,120,293.390,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,87,295.988,429
+"Hyperliquid POST /info allMids",warm,199,216.807,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,17,428.722,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,121,206.103,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,88,199.229,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,122,195.736,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,18,384.062,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,89,195.488,429
+"Hyperliquid POST /info allMids",cold,0,287.061,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,90,256.482,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,123,283.843,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,19,453.003,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,91,181.644,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,124,229.520,200
+"Hyperliquid POST /info allMids",cold,1,455.648,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,92,177.916,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,20,333.326,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,125,247.823,200
+"Hyperliquid POST /info allMids",cold,2,259.795,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,93,237.624,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,126,218.719,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,21,345.086,200
+"Hyperliquid POST /info allMids",cold,3,262.601,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,94,179.025,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,127,220.724,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,95,176.993,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,22,332.028,200
+"Hyperliquid POST /info allMids",cold,4,262.010,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,128,186.780,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,96,161.482,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,129,229.014,200
+"Hyperliquid POST /info allMids",cold,5,340.721,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,23,378.061,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,97,173.155,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,130,214.609,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,98,183.070,429
+"Hyperliquid POST /info allMids",cold,6,327.865,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,24,320.930,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,131,198.676,200
+"Hyperliquid POST /info allMids",cold,7,322.646,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,132,202.688,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,25,374.396,200
+"Polymarket CLOB GET /time",warm,15,5001.139,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,15,5001.128,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,15,5001.126,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,133,207.583,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,99,995.478,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,26,410.265,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,134,189.739,200
+"Hyperliquid POST /info allMids",cold,8,594.507,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,100,170.332,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,135,193.592,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,27,309.575,200
+"Hyperliquid POST /info allMids",cold,9,274.464,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,101,207.061,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,136,191.155,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,28,337.690,200
+"Hyperliquid POST /info allMids",cold,10,257.213,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,102,208.915,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,137,173.906,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,103,180.266,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,138,213.788,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,29,340.973,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,104,197.958,429
+"Hyperliquid POST /info allMids",cold,11,489.423,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,139,201.971,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,105,211.986,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,30,376.182,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,140,214.139,200
+"Hyperliquid POST /info allMids",cold,12,411.561,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,106,187.425,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,141,191.316,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,31,391.717,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,107,192.031,429
+"Hyperliquid POST /info allMids",cold,13,276.896,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,142,186.664,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,108,178.883,200
+"Hyperliquid POST /info allMids",cold,14,254.516,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,32,383.695,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,143,221.928,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,109,190.674,429
+"Hyperliquid POST /info allMids",cold,15,263.537,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,144,199.394,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,110,201.463,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,33,375.529,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,145,175.482,200
+"Hyperliquid POST /info allMids",cold,16,271.556,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,111,172.361,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,146,223.465,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,34,379.998,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,112,188.079,200
+"Hyperliquid POST /info allMids",cold,17,267.028,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,147,190.944,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,113,193.683,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,35,337.134,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,148,197.630,200
+"Hyperliquid POST /info allMids",cold,18,426.856,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,114,193.621,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,149,207.454,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,36,387.273,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,115,171.454,200
+"Hyperliquid POST /info allMids",cold,19,292.981,200
+"Polymarket CLOB GET /time",warm,16,5001.092,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,16,5001.067,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,16,5001.062,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,150,197.567,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,116,192.309,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,37,330.474,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,151,191.619,200
+"Hyperliquid POST /info allMids",cold,20,349.088,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,117,186.075,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,152,185.939,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,38,367.703,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,118,206.849,429
+"Hyperliquid POST /info allMids",cold,21,430.356,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,153,193.548,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,119,187.546,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,39,378.588,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,154,190.681,200
+"Hyperliquid POST /info allMids",cold,22,254.924,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,120,167.681,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,155,191.004,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,121,185.633,429
+"Hyperliquid POST /info allMids",cold,23,253.412,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,40,377.374,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,156,199.625,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,122,179.460,429
+"Hyperliquid POST /info allMids",cold,24,273.500,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,157,214.260,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,41,354.487,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,123,206.959,429
+"Hyperliquid POST /info allMids",cold,25,269.462,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,158,199.003,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,124,195.611,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,42,378.888,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,159,198.976,200
+"Hyperliquid POST /info allMids",cold,26,280.833,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,125,189.717,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,160,210.270,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,126,213.299,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,43,402.343,200
+"Hyperliquid POST /info allMids",cold,27,285.155,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,161,209.264,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,127,209.965,429
+"Hyperliquid POST /info allMids",cold,28,285.095,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,44,341.079,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,162,186.801,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,128,206.593,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,163,214.670,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,129,203.931,429
+"Hyperliquid POST /info allMids",cold,29,408.793,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,45,375.894,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,164,206.188,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,130,188.452,429
+"Hyperliquid POST /info allMids",cold,30,279.020,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,46,375.071,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,131,179.978,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,165,198.112,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,132,197.782,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,166,215.770,200
+"Hyperliquid POST /info allMids",cold,31,394.996,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,47,376.629,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,133,193.862,429
+"Polymarket CLOB GET /time",warm,17,5000.219,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,17,5000.194,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,17,5000.188,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,167,205.139,200
+"Hyperliquid POST /info allMids",cold,32,255.613,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,48,329.289,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,134,197.046,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,168,213.276,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,135,182.671,429
+"Hyperliquid POST /info allMids",cold,33,454.325,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,169,225.148,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,49,331.756,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,136,185.970,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,170,199.085,200
+"Hyperliquid POST /info allMids",cold,34,306.125,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,137,185.538,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,50,373.670,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,171,209.932,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,138,198.107,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,51,314.780,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,172,211.225,200
+"Hyperliquid POST /info allMids",cold,35,463.476,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,139,199.177,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,173,188.159,200
+"Hyperliquid POST /info allMids",cold,36,274.239,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,140,175.070,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,52,373.988,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,174,210.547,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,141,200.685,429
+"Hyperliquid POST /info allMids",cold,37,250.476,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,175,199.607,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,53,394.184,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,142,174.731,200
+"Hyperliquid POST /info allMids",cold,38,253.926,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,176,187.927,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,143,198.475,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,54,397.954,200
+"Hyperliquid POST /info allMids",cold,39,269.825,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,177,200.524,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,144,233.453,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,178,191.632,200
+"Hyperliquid POST /info allMids",cold,40,261.304,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,55,337.367,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,145,186.793,429
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,179,201.379,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,146,209.454,200
+"Hyperliquid POST /info allMids",cold,41,373.196,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,56,389.261,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,180,204.692,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,147,186.625,200
+"Hyperliquid POST /info allMids",cold,42,273.972,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,181,194.865,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,57,330.067,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,148,207.490,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,182,194.891,200
+"Hyperliquid POST /info allMids",cold,43,267.643,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,149,199.762,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,183,186.696,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,58,373.535,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,150,192.014,429
+"Polymarket CLOB GET /time",warm,18,5000.839,TimeoutError
+"Binance futures GET /fapi/v1/time",warm,18,5000.833,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,18,5000.829,TimeoutError
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,184,203.052,200
+"Hyperliquid POST /info allMids",cold,44,470.914,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,151,182.988,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,59,314.960,200
+"Binance futures GET /fapi/v1/time",warm,19,226.712,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,185,197.735,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,152,202.841,429
+"Hyperliquid POST /info allMids",cold,45,296.342,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,60,342.748,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,186,190.961,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,153,173.823,429
+"Binance futures GET /fapi/v1/time",cold,0,202.294,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,187,211.251,200
+"Hyperliquid POST /info allMids",cold,46,394.859,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,154,205.470,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,61,372.412,200
+"Binance futures GET /fapi/v1/time",cold,1,203.455,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,188,176.731,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,155,178.705,429
+"Hyperliquid POST /info allMids",cold,47,268.654,200
+"Binance futures GET /fapi/v1/time",cold,2,195.207,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,189,206.239,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,62,386.470,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,156,222.287,429
+"Binance futures GET /fapi/v1/time",cold,3,212.772,200
+"Hyperliquid POST /info allMids",cold,48,293.957,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,190,179.431,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,157,222.694,429
+"Binance futures GET /fapi/v1/time",cold,4,207.054,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,63,412.266,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,191,193.101,200
+"Hyperliquid POST /info allMids",cold,49,270.394,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,158,178.727,429
+"Binance futures GET /fapi/v1/time",cold,5,198.533,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,192,190.938,200
+"Hyperliquid POST /info allMids",cold,50,257.584,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,159,210.793,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,64,382.753,200
+"Binance futures GET /fapi/v1/time",cold,6,208.676,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,193,194.779,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,160,193.858,429
+"Binance futures GET /fapi/v1/time",cold,7,203.580,200
+"Hyperliquid POST /info allMids",cold,51,419.669,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,194,220.691,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,65,378.198,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,161,182.611,429
+"Binance futures GET /fapi/v1/time",cold,8,200.345,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,195,187.593,200
+"Hyperliquid POST /info allMids",cold,52,270.954,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,162,193.932,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,66,339.780,200
+"Binance futures GET /fapi/v1/time",cold,9,200.285,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,196,196.661,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,163,192.650,429
+"Hyperliquid POST /info allMids",cold,53,264.168,200
+"Binance futures GET /fapi/v1/time",cold,10,192.937,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,197,207.999,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,67,322.010,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,164,216.135,429
+"Hyperliquid POST /info allMids",cold,54,272.969,200
+"Binance futures GET /fapi/v1/time",cold,11,198.466,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,198,185.138,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,165,213.060,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,68,378.583,200
+"Binance futures GET /fapi/v1/time",cold,12,198.405,200
+"Hyperliquid POST /info allMids",cold,55,261.719,200
+"Monad mainnet eth_blockNumber (rpc.monad.xyz)",cold,199,207.839,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,166,220.424,429
+"Binance futures GET /fapi/v1/time",cold,13,201.557,200
+"Hyperliquid POST /info allMids",cold,56,291.512,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,167,183.436,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,69,495.753,200
+"Binance futures GET /fapi/v1/time",cold,14,189.657,200
+"Polymarket CLOB GET /time",warm,19,5001.078,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,19,5001.043,TimeoutError
+"Jupiter GET lite-api /price/v3 (SOL)",cold,168,185.726,429
+"Binance futures GET /fapi/v1/time",cold,15,209.353,200
+"Hyperliquid POST /info allMids",cold,57,497.609,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,70,385.980,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,169,208.065,429
+"Binance futures GET /fapi/v1/time",cold,16,203.453,200
+"Hyperliquid POST /info allMids",cold,58,250.850,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,170,174.968,429
+"Binance futures GET /fapi/v1/time",cold,17,211.904,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,71,378.494,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,171,196.576,429
+"Binance futures GET /fapi/v1/time",cold,18,200.821,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,72,318.942,200
+"Hyperliquid POST /info allMids",cold,59,469.922,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,172,201.177,429
+"Binance futures GET /fapi/v1/time",cold,19,215.035,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,173,193.907,429
+"Hyperliquid POST /info allMids",cold,60,353.793,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,73,426.666,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,174,207.337,429
+"Hyperliquid POST /info allMids",cold,61,278.146,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,74,315.754,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,175,198.209,429
+"Hyperliquid POST /info allMids",cold,62,253.849,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,176,196.250,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,75,342.315,200
+"Hyperliquid POST /info allMids",cold,63,248.977,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,177,198.562,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,76,323.390,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,178,203.874,429
+"Hyperliquid POST /info allMids",cold,64,302.615,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,179,179.586,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,77,392.263,200
+"Hyperliquid POST /info allMids",cold,65,265.410,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,180,213.067,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,78,335.051,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,181,197.744,200
+"Hyperliquid POST /info allMids",cold,66,397.858,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,182,186.370,200
+"Hyperliquid POST /info allMids",cold,67,255.698,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,79,378.323,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,183,196.272,429
+"Hyperliquid POST /info allMids",cold,68,266.020,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,184,183.215,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,80,369.244,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,20,5001.072,TimeoutError
+"Hyperliquid POST /info allMids",cold,69,272.821,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,185,231.507,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,81,396.820,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,186,209.477,429
+"Hyperliquid POST /info allMids",cold,70,320.917,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,187,199.906,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,82,362.705,200
+"Hyperliquid POST /info allMids",cold,71,271.118,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,188,217.741,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,83,395.769,200
+"Hyperliquid POST /info allMids",cold,72,354.436,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,189,188.064,429
+"Jupiter GET lite-api /price/v3 (SOL)",cold,190,187.775,429
+"Hyperliquid POST /info allMids",cold,73,286.921,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,84,384.612,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,191,191.191,429
+"Hyperliquid POST /info allMids",cold,74,271.389,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,192,204.187,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,85,336.830,200
+"Hyperliquid POST /info allMids",cold,75,263.134,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,193,226.406,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,86,382.858,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,194,178.533,429
+"Hyperliquid POST /info allMids",cold,76,388.290,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,195,190.611,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,87,382.148,200
+"Hyperliquid POST /info allMids",cold,77,269.724,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,196,188.301,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,88,332.642,200
+"Hyperliquid POST /info allMids",cold,78,276.272,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,197,187.757,429
+"Jupiter GET lite-api /price/v3 (SOL)",cold,198,214.201,429
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,89,443.954,200
+"Jupiter GET lite-api /price/v3 (SOL)",cold,199,201.219,429
+"Hyperliquid POST /info allMids",cold,79,627.982,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,90,326.869,200
+"Hyperliquid POST /info allMids",cold,80,265.478,200
+"Polymarket CLOB GET /time",cold,0,5001.095,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,21,5001.108,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,91,356.157,200
+"Hyperliquid POST /info allMids",cold,81,306.852,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,92,346.300,200
+"Hyperliquid POST /info allMids",cold,82,430.646,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,93,392.966,200
+"Hyperliquid POST /info allMids",cold,83,245.230,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,94,318.569,200
+"Hyperliquid POST /info allMids",cold,84,413.137,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,95,388.456,200
+"Hyperliquid POST /info allMids",cold,85,414.521,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,96,396.482,200
+"Hyperliquid POST /info allMids",cold,86,268.520,200
+"Hyperliquid POST /info allMids",cold,87,273.252,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,97,385.332,200
+"Hyperliquid POST /info allMids",cold,88,255.626,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,98,386.890,200
+"Hyperliquid POST /info allMids",cold,89,403.163,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,99,375.459,200
+"Hyperliquid POST /info allMids",cold,90,269.788,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,100,382.842,200
+"Hyperliquid POST /info allMids",cold,91,293.977,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,101,365.288,200
+"Hyperliquid POST /info allMids",cold,92,249.135,200
+"Polymarket CLOB GET /time",cold,1,5000.644,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,22,5001.077,TimeoutError
+"Hyperliquid POST /info allMids",cold,93,280.950,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,102,337.376,200
+"Hyperliquid POST /info allMids",cold,94,264.210,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,103,367.607,200
+"Hyperliquid POST /info allMids",cold,95,296.528,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,104,376.314,200
+"Hyperliquid POST /info allMids",cold,96,287.459,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,105,363.458,200
+"Hyperliquid POST /info allMids",cold,97,378.403,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,106,320.486,200
+"Hyperliquid POST /info allMids",cold,98,263.395,200
+"Hyperliquid POST /info allMids",cold,99,278.361,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,107,414.942,200
+"Hyperliquid POST /info allMids",cold,100,264.598,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,108,370.312,200
+"Hyperliquid POST /info allMids",cold,101,270.447,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,109,329.379,200
+"Hyperliquid POST /info allMids",cold,102,409.718,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,110,384.938,200
+"Hyperliquid POST /info allMids",cold,103,326.039,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,111,321.057,200
+"Hyperliquid POST /info allMids",cold,104,525.896,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,112,385.296,200
+"Polymarket CLOB GET /time",cold,2,5001.111,TimeoutError
+"Hyperliquid POST /info allMids",cold,105,264.778,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,23,5001.070,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,113,331.629,200
+"Hyperliquid POST /info allMids",cold,106,415.444,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,114,380.633,200
+"Hyperliquid POST /info allMids",cold,107,251.534,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,115,336.185,200
+"Hyperliquid POST /info allMids",cold,108,248.943,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,116,387.789,200
+"Hyperliquid POST /info allMids",cold,109,321.736,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,117,384.647,200
+"Hyperliquid POST /info allMids",cold,110,275.795,200
+"Hyperliquid POST /info allMids",cold,111,387.009,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,118,462.021,200
+"Hyperliquid POST /info allMids",cold,112,278.073,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,119,323.685,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,120,305.662,200
+"Hyperliquid POST /info allMids",cold,113,420.519,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,121,327.084,200
+"Hyperliquid POST /info allMids",cold,114,411.334,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,122,392.876,200
+"Hyperliquid POST /info allMids",cold,115,439.267,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,123,323.716,200
+"Hyperliquid POST /info allMids",cold,116,269.952,200
+"Polymarket CLOB GET /time",cold,3,5001.099,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,24,5001.085,TimeoutError
+"Hyperliquid POST /info allMids",cold,117,253.228,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,124,410.700,200
+"Hyperliquid POST /info allMids",cold,118,256.311,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,125,394.946,200
+"Hyperliquid POST /info allMids",cold,119,296.421,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,126,331.324,200
+"Hyperliquid POST /info allMids",cold,120,317.652,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,127,350.669,200
+"Hyperliquid POST /info allMids",cold,121,274.481,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,128,382.368,200
+"Hyperliquid POST /info allMids",cold,122,390.873,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,129,357.213,200
+"Hyperliquid POST /info allMids",cold,123,261.906,200
+"Hyperliquid POST /info allMids",cold,124,266.844,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,130,381.493,200
+"Hyperliquid POST /info allMids",cold,125,266.477,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,131,319.543,200
+"Hyperliquid POST /info allMids",cold,126,273.475,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,132,396.560,200
+"Hyperliquid POST /info allMids",cold,127,431.402,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,133,374.981,200
+"Hyperliquid POST /info allMids",cold,128,270.645,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,134,349.383,200
+"Polymarket CLOB GET /time",cold,4,5001.113,TimeoutError
+"Hyperliquid POST /info allMids",cold,129,472.384,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,25,5001.075,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,135,384.465,200
+"Hyperliquid POST /info allMids",cold,130,269.833,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,136,410.876,200
+"Hyperliquid POST /info allMids",cold,131,301.767,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,137,339.279,200
+"Hyperliquid POST /info allMids",cold,132,326.442,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,138,331.861,200
+"Hyperliquid POST /info allMids",cold,133,289.219,200
+"Hyperliquid POST /info allMids",cold,134,260.802,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,139,372.552,200
+"Hyperliquid POST /info allMids",cold,135,294.092,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,140,405.618,200
+"Hyperliquid POST /info allMids",cold,136,289.784,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,141,393.297,200
+"Hyperliquid POST /info allMids",cold,137,264.790,200
+"Hyperliquid POST /info allMids",cold,138,254.822,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,142,394.512,200
+"Hyperliquid POST /info allMids",cold,139,268.457,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,143,409.408,200
+"Hyperliquid POST /info allMids",cold,140,281.863,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,144,345.477,200
+"Hyperliquid POST /info allMids",cold,141,281.014,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,145,322.414,200
+"Polymarket CLOB GET /time",cold,5,5001.005,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,26,5001.493,TimeoutError
+"Hyperliquid POST /info allMids",cold,142,464.817,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,146,392.674,200
+"Hyperliquid POST /info allMids",cold,143,253.721,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,147,380.332,200
+"Hyperliquid POST /info allMids",cold,144,350.109,200
+"Hyperliquid POST /info allMids",cold,145,279.430,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,148,396.192,200
+"Hyperliquid POST /info allMids",cold,146,264.923,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,149,343.965,200
+"Hyperliquid POST /info allMids",cold,147,388.662,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,150,804.050,200
+"Hyperliquid POST /info allMids",cold,148,860.283,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,151,401.424,200
+"Hyperliquid POST /info allMids",cold,149,370.655,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,152,346.077,200
+"Hyperliquid POST /info allMids",cold,150,339.514,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,153,310.635,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,154,321.880,200
+"Hyperliquid POST /info allMids",cold,151,511.431,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,155,475.607,200
+"Polymarket CLOB GET /time",cold,6,5001.123,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,27,5001.106,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,156,421.215,200
+"Hyperliquid POST /info allMids",cold,152,911.231,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,157,991.171,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,158,352.657,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,159,509.223,200
+"Hyperliquid POST /info allMids",cold,153,2302.100,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,160,359.879,200
+"Hyperliquid POST /info allMids",cold,154,387.721,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,161,414.367,200
+"Hyperliquid POST /info allMids",cold,155,318.096,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,162,378.269,200
+"Hyperliquid POST /info allMids",cold,156,366.704,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,163,483.209,200
+"Hyperliquid POST /info allMids",cold,157,366.858,200
+"Polymarket CLOB GET /time",cold,7,5001.246,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,28,5001.155,TimeoutError
+"Hyperliquid POST /info allMids",cold,158,313.062,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,164,728.689,200
+"Hyperliquid POST /info allMids",cold,159,350.817,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,165,350.486,200
+"Hyperliquid POST /info allMids",cold,160,356.796,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,166,416.046,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,167,421.961,200
+"Hyperliquid POST /info allMids",cold,161,871.099,200
+"Hyperliquid POST /info allMids",cold,162,285.672,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,168,414.761,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,169,1313.778,200
+"Hyperliquid POST /info allMids",cold,163,1400.018,200
+"Hyperliquid POST /info allMids",cold,164,256.919,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,170,410.052,200
+"Hyperliquid POST /info allMids",cold,165,388.288,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,171,420.999,200
+"Polymarket CLOB GET /time",cold,8,5001.104,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,29,5001.104,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,172,365.855,200
+"Hyperliquid POST /info allMids",cold,166,859.888,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,173,446.722,200
+"Hyperliquid POST /info allMids",cold,167,280.331,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,174,436.201,200
+"Hyperliquid POST /info allMids",cold,168,377.097,200
+"Hyperliquid POST /info allMids",cold,169,322.879,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,175,458.990,200
+"Hyperliquid POST /info allMids",cold,170,309.774,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,176,342.279,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,177,462.554,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,178,374.007,200
+"Hyperliquid POST /info allMids",cold,171,1097.798,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,179,382.732,200
+"Hyperliquid POST /info allMids",cold,172,329.042,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,180,413.029,200
+"Hyperliquid POST /info allMids",cold,173,438.315,200
+"Hyperliquid POST /info allMids",cold,174,266.063,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,181,393.834,200
+"Polymarket CLOB GET /time",cold,9,5001.110,TimeoutError
+"Hyperliquid POST /info allMids",cold,175,281.353,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,30,5000.253,TimeoutError
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,182,379.743,200
+"Hyperliquid POST /info allMids",cold,176,273.978,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,183,347.426,200
+"Hyperliquid POST /info allMids",cold,177,335.344,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,184,440.088,200
+"Hyperliquid POST /info allMids",cold,178,314.532,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,185,332.042,200
+"Hyperliquid POST /info allMids",cold,179,438.066,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,186,340.524,200
+"Hyperliquid POST /info allMids",cold,180,465.884,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,187,353.508,200
+"Hyperliquid POST /info allMids",cold,181,391.515,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,188,370.170,200
+"Hyperliquid POST /info allMids",cold,182,323.116,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,189,327.094,200
+"Hyperliquid POST /info allMids",cold,183,321.829,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,190,362.508,200
+"Hyperliquid POST /info allMids",cold,184,292.616,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,191,397.158,200
+"Hyperliquid POST /info allMids",cold,185,276.562,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,192,359.486,200
+"Hyperliquid POST /info allMids",cold,186,290.957,200
+"Polymarket CLOB GET /time",cold,10,5001.110,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,31,5000.506,TimeoutError
+"Hyperliquid POST /info allMids",cold,187,277.891,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,193,390.979,200
+"Hyperliquid POST /info allMids",cold,188,462.365,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,194,465.085,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,195,315.063,200
+"Hyperliquid POST /info allMids",cold,189,445.810,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,196,377.136,200
+"Hyperliquid POST /info allMids",cold,190,299.363,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,197,314.469,200
+"Hyperliquid POST /info allMids",cold,191,405.734,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,198,326.819,200
+"Hyperliquid POST /info allMids",cold,192,335.034,200
+"Base mainnet eth_blockNumber (mainnet.base.org)",cold,199,347.781,200
+"Hyperliquid POST /info allMids",cold,193,400.144,200
+"Hyperliquid POST /info allMids",cold,194,456.437,200
+"Hyperliquid POST /info allMids",cold,195,256.031,200
+"Hyperliquid POST /info allMids",cold,196,504.471,200
+"Polymarket CLOB GET /time",cold,11,5000.282,TimeoutError
+"Hyperliquid POST /info allMids",cold,197,395.952,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,32,5000.932,TimeoutError
+"Hyperliquid POST /info allMids",cold,198,293.570,200
+"Hyperliquid POST /info allMids",cold,199,281.515,200
+"Polymarket CLOB GET /time",cold,12,5001.107,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,33,5001.133,TimeoutError
+"Polymarket CLOB GET /time",cold,13,5001.424,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,34,5001.094,TimeoutError
+"Polymarket CLOB GET /time",cold,14,5001.112,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,35,5001.084,TimeoutError
+"Polymarket CLOB GET /time",cold,15,5001.560,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,36,5001.104,TimeoutError
+"Polymarket CLOB GET /time",cold,16,5001.211,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,37,5001.099,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,38,3255.975,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,39,197.342,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,40,907.233,200
+"Polymarket CLOB GET /time",cold,17,5001.167,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,41,503.614,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,42,202.222,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,43,172.485,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,44,509.085,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,45,191.262,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,46,192.168,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,47,194.988,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,48,171.781,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,49,441.197,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,50,203.742,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,51,217.333,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,52,177.056,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,53,206.028,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,54,214.400,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,55,201.292,200
+"Polymarket CLOB GET /time",cold,18,5001.027,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,56,202.873,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,57,458.976,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,58,229.422,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,59,277.079,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,60,262.429,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,61,230.914,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,62,243.600,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,63,261.372,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,64,292.822,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,65,251.607,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,66,239.507,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,67,200.049,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,68,184.058,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,69,192.207,200
+"Polymarket CLOB GET /time",cold,19,5001.072,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",warm,70,207.532,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,71,179.448,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,72,177.674,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,73,240.553,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,74,223.291,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,75,174.281,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,76,230.757,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,77,318.193,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,78,236.700,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,79,240.747,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,80,261.933,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,81,208.748,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,82,196.013,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,83,194.231,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,84,190.494,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,85,173.644,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,86,193.214,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,87,226.782,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,88,437.424,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,89,202.873,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,90,254.812,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,91,177.109,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,92,453.778,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,93,175.748,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,94,198.922,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,95,177.927,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,96,189.540,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,97,182.724,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,98,242.587,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,99,210.069,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,100,193.769,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,101,178.241,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,102,184.067,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,103,189.635,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,104,204.169,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,105,193.535,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,106,224.499,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,107,174.470,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,108,212.814,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,109,185.788,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,110,188.800,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,111,192.797,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,112,247.698,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,113,184.277,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,114,191.722,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,115,198.096,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,116,183.944,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,117,184.016,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,118,181.592,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,119,193.927,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,120,276.026,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,121,193.237,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,122,200.211,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,123,184.047,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,124,198.464,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,125,199.608,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,126,208.509,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,127,205.177,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,128,171.715,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,129,177.913,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,130,215.373,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,131,194.601,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,132,428.298,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,133,211.819,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,134,199.531,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,135,447.348,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,136,201.357,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,137,176.249,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,138,184.630,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,139,195.773,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,140,200.377,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,141,224.237,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,142,184.060,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,143,202.346,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,144,205.064,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,145,193.017,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,146,170.709,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,147,173.334,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,148,201.885,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,149,171.442,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,150,172.582,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,151,179.169,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,152,207.464,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,153,192.444,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,154,188.919,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,155,176.177,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,156,171.482,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,157,177.634,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,158,212.164,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,159,195.334,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,160,212.674,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,161,192.592,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,162,187.722,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,163,205.162,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,164,211.607,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,165,173.470,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,166,192.663,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,167,217.407,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,168,198.331,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,169,198.950,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,170,676.612,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,171,173.096,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,172,191.541,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,173,173.924,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,174,198.625,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,175,171.520,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,176,192.047,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,177,194.243,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,178,173.939,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,179,176.885,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,180,173.076,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,181,193.158,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,182,202.025,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,183,173.593,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,184,189.102,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,185,224.240,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,186,185.080,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,187,205.935,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,188,205.785,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,189,182.404,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,190,200.148,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,191,209.496,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,192,173.075,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,193,194.001,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,194,511.159,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,195,176.995,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,196,173.540,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,197,591.595,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,198,179.840,200
+"Binance SPOT GET /api/v3/time (substitute)",warm,199,190.473,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,0,305.924,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,1,284.446,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,2,261.852,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,3,234.233,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,4,251.038,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,5,272.905,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,6,269.832,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,7,252.239,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,8,270.147,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,9,283.206,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,10,251.242,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,11,271.105,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,12,300.348,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,13,289.493,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,14,294.334,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,15,245.491,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,16,368.082,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,17,269.199,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,18,269.143,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,19,280.164,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,20,296.374,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,21,257.576,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,22,244.279,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,23,256.793,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,24,289.658,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,25,252.605,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,26,260.399,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,27,254.060,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,28,268.768,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,29,273.808,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,30,266.222,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,31,254.666,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,32,252.009,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,33,275.082,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,34,244.484,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,35,258.363,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,36,261.173,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,37,286.245,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,38,267.311,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,39,271.818,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,40,266.356,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,41,271.622,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,42,271.511,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,43,244.057,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,44,261.027,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,45,267.701,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,46,272.794,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,47,278.150,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,48,258.223,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,49,244.377,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,50,248.330,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,51,290.871,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,52,259.628,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,53,262.200,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,54,307.087,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,55,267.147,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,56,246.259,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,57,269.315,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,58,271.422,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,59,268.069,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,60,267.097,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,61,277.193,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,62,248.084,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,63,278.326,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,64,252.725,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,65,265.446,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,66,249.506,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,67,275.055,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,68,251.427,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,69,266.623,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,70,268.310,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,71,251.376,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,72,270.259,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,73,277.240,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,74,349.356,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,75,354.965,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,76,441.859,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,77,431.956,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,78,461.200,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,79,472.308,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,80,328.004,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,81,234.567,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,82,235.330,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,83,239.187,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,84,299.323,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,85,348.566,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,86,314.714,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,87,246.347,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,88,199.081,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,89,196.167,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,90,203.371,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,91,199.346,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,92,219.822,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,93,204.811,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,94,263.030,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,95,262.390,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,96,207.814,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,97,199.393,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,98,200.839,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,99,197.300,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,100,198.269,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,101,202.553,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,102,204.365,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,103,217.308,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,104,194.042,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,105,201.821,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,106,199.282,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,107,204.463,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,108,200.676,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,109,198.591,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,110,204.968,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,111,213.426,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,112,249.904,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,113,254.538,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,114,216.800,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,115,287.212,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,116,200.918,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,117,216.245,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,118,324.229,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,119,258.514,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,120,208.265,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,121,269.924,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,122,203.778,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,123,201.017,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,124,275.082,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,125,205.388,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,126,208.116,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,127,205.850,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,128,192.431,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,129,197.976,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,130,1003.346,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,131,204.688,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,132,230.044,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,133,200.967,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,134,212.192,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,135,926.368,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,136,354.342,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,137,205.273,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,138,205.505,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,139,306.406,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,140,230.147,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,141,240.309,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,142,333.463,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,143,1216.915,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,144,261.059,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,145,253.302,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,146,278.070,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,147,226.105,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,148,248.028,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,149,272.718,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,150,210.064,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,151,1350.039,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,152,234.297,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,153,207.685,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,154,279.930,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,155,232.772,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,156,209.088,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,157,203.851,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,158,206.710,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,159,203.397,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,160,208.977,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,161,207.388,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,162,195.422,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,163,5001.300,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,164,5001.250,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,165,5002.911,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,166,5001.549,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,167,5002.620,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,168,5001.327,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,169,5001.517,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,170,5000.530,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,171,5002.522,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,172,5001.170,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,173,5001.749,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,174,5001.252,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,175,5006.897,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,176,5001.160,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,177,5002.325,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,178,5001.135,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,179,5001.144,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,180,5001.134,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,181,5001.177,TimeoutError
+"Binance SPOT GET /api/v3/time (substitute)",cold,182,275.551,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,183,305.098,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,184,251.889,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,185,251.498,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,186,273.195,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,187,268.460,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,188,280.539,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,189,260.418,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,190,244.978,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,191,272.668,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,192,260.794,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,193,274.400,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,194,279.273,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,195,273.315,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,196,290.022,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,197,248.635,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,198,271.113,200
+"Binance SPOT GET /api/v3/time (substitute)",cold,199,246.746,200

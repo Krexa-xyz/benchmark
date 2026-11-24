@@ -1,0 +1,10 @@
+{
+  "vms": 42,
+  "stop": "boot of VM 43 failed: Error: guest agent not ready in 30s: 2026-11-20T12:29:23.870779049 [bd-olr-43:main] Could not read the coherency line size, size, number of sets for cache level 1.\n2026-11-20T12:29:23.871874764 [bd-ol",
+  "sumPssMiB": 2237.7,
+  "sumRssMiB": 2238.2,
+  "sumCgroupMiB": 2211.7,
+  "perVmPssMiB": 53.3,
+  "memAvailMiB": 8460.9,
+  "loadavg": "30.20 10.08 4.51 76/460 12848"
+}

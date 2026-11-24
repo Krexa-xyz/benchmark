@@ -1,0 +1,10 @@
+{
+  "mode": "bare",
+  "wallSeconds": 30.006891082999996,
+  "cpuUserMs": 27.567,
+  "cpuSystemMs": 23.981,
+  "cpuPercent": 0.17178720667001665,
+  "psCputimeBefore": "0:00.08",
+  "psCputimeAfter": "0:00.13",
+  "rssMB": 17.313255310058594
+}

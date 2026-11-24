@@ -1,0 +1,112 @@
+PASS  [real-vm]  a. no network: only lo, DNS/TCP/metadata fail  (6928 ms)
+        ok   TCP 1.1.1.1:443 fails fast with a no-route errno
+        ok   TCP 169.254.169.254:80 (cloud metadata) fails fast
+        ok   TCP 10.0.0.1:22 (private range) fails fast
+        ok   TCP6 [2606:4700:4700::1111]:443 fails
+        ok   DNS getaddrinfo(example.com) fails
+        ok   UDP send to 1.1.1.1:53 fails
+        ok   interfaces are only lo (or none)
+        ok   /proc/net/dev lists only lo (or none)
+        ok   no routes configured
+        ok   positive control: the same connect code SUCCEEDS to a listener on loopback
+        ok   host gained no network interface (no tap)
+PASS  [real-vm]  b. no host files visible; no disk; initramfs only  (1650 ms)
+        ok   none of the host paths exist in the guest
+        ok   no host-named file anywhere in the guest filesystem
+        ok   guest filesystem is exactly /init + /proc + /dev nodes (+ the kernel's own /root and /dev/kmsg; nothing else)
+        ok   no block device with any capacity (no disk attached; unbound loop nodes of the CI kernel have 0 sectors)
+        ok   only virtio device is the vsock (exactly 1 virtio device)
+        ok   no virtiofs/9p/nfs/overlay/fuse/ext4 mount
+        ok   root is the initramfs (rootfs), not a disk
+PASS  [real-vm]  c. no keys in guest fs/env/cmdline/RAM (whole-RAM host scan, controls)  (5273 ms)
+        ok   guest scanner control: a planted fake of every pattern is found in a file AND in guest memory
+        ok   zero secret-pattern hits across the guest filesystem
+        ok   zero hits in /proc/*/environ, /proc/*/cmdline, /proc/cmdline
+        ok   zero hits in the guest process's own memory
+        ok   HOST whole-RAM scan control: planted fakes + canary are found in the control VM's RAM
+        ok   HOST whole-RAM scan of a clean VM: zero pattern hits and no canary (host env never reaches the guest)
+        ok   template memory file: zero pattern hits
+PASS  [real-vm]  d. snapshot/restore lifecycle + no state leak after recycle (discard, keep)  (4416 ms)
+        ok   template built from a VM carrying a marker is root-owned and read-only (0444)
+        ok   restore from that template continues the snapshotted state (marker present: same lineage, expected)
+        ok   original VM fully gone after teardown (process, jail dir, cgroup)
+        ok   a FRESH restore from the normal template does not see the marker
+        ok   DISCARD: the used VM was killed and its jail/cgroup removed
+        ok   DISCARD: the next tenant got a different VM with no trace of tenant A's state (heap + file)
+        ok   KEEP: same tenant gets its own VM back (state present: expected, same tenant)
+        ok   KEEP: a different tenant never receives another tenant's VM and sees none of its state
+        ok   KEEP: tenant A still gets ITS parked VM after tenant B ran
+        ok   KEEP: a wall-clock overrun poisons the VM and it is discarded anyway
+        ok   marker absent from every file under jail/ and templates/ after cleanup
+PASS  [real-vm]  e. memory bomb + CPU spin contained; host cgroup limit binds; neighbour healthy  (10379 ms)
+        ok   memory bomb: the allocating child was killed inside the guest (OOM) and the agent survived
+        ok   memory bomb: VM host cgroup peak stayed within memory.max
+        ok   memory bomb: host MemAvailable dropped < 400 MiB at worst
+        ok   cpu spin: VM used <= 0.65 CPU under a 0.5 CPU quota while 2 threads spun
+        ok   cpu spin: the cgroup actually throttled the VM
+        ok   host cgroup memory.max below the guest working set binds: the HOST kernel OOM-kills the VM, nothing else
+        ok   host unaffected by that kill: MemAvailable moved < 100 MiB
+        ok   neighbour VM ping p99 during the bomb < 250 ms
+        ok   neighbour VM ping p99 during the spin < 250 ms
+        ok   neighbour VM still answers after the host-side OOM kill
+        ok   host event-loop lag p99 < 100 ms throughout
+PASS  [real-vm]  f. escape attempts as root with caps: fork bomb, /dev/mem, mounts, raw sockets, kernel oops  (9345 ms)
+        ok   the attack ran as root WITH capabilities (probes guest, drop_caps=false)
+        ok   fork bomb contained: guest recovered after the group kill, agent + VM alive
+        ok   /dev/mem, /dev/kmem: no write succeeded
+        ok   mount of 9p, virtiofs, nfs, a block device all fail
+        ok   no block device node exists to mount (dev has only console/null/urandom + our probe nodes)
+        ok   raw sockets: nothing leaves (no eth0, ICMP raw send fails)
+        ok   template memory + vmstate files byte-identical after all attacks (guest cannot touch host files)
+        ok   host jail unchanged by the attacks (same pid, uid, seccomp 2)
+        ok   guest kernel OOPS (/dev/port write): neighbour VM unaffected, host alive, victim contained
+PASS  [real-vm]  g. two VMs cannot reach each other via vsock; identity bound by socket  (12613 ms)
+        ok   both VMs report a vsock CID (restored VMs inherit the template CID; vsock is per-VM, not a shared bus)
+        ok   v2's listener (port 6000) accepted ZERO connections from v1's attempts at any CID
+        ok   v1 -> any CID/port other than the host gateway fails
+        ok   gateway frame from v1 was attributed to v1's tenant only (the guest's claimed `agent` field is ignored)
+        ok   audit log carries only v1's identity for those intents
+PASS  [real-vm]  h. jailer: uid, seccomp 2 on all threads, cgroup limits, ns, no tun fd  (712 ms)
+        ok   non-root, per-VM uid/gid >= 40000, two VMs differ
+        ok   no capabilities (CapEff == 0) and NoNewPrivs == 1
+        ok   seccomp mode 2 (filter) on the process and on EVERY thread
+        ok   --no-seccomp absent from the vmm command line
+        ok   own PID namespace and own mount namespace
+        ok   cgroup v2 placement under /vmm/<id>
+        ok   cgroup limits applied: cpu.max 1 CPU, memory.max, pids.max, swap 0
+        ok   vmm holds no /dev/net/tun fd (no network device exists)
+        ok   the jail root holds only the expected files
+        ok   guest memory is the shared template file via a hard link (same inode, MAP_PRIVATE copy-on-write)
+        ok   the VM's own uid cannot write the shared memory file (EACCES)
+PASS  [real-vm]  i. production image: no probe ops, init once, real engine, determinism  (632 ms)
+        ok   every observation is from a real, jailed vmm (release image has no probe ops: host-side proof)
+        ok   run before init is refused (tenant code never runs before the capability drop)
+        ok   release guest REFUSES every probe op
+        ok   init succeeds once and reports caps dropped; a second init is refused; drop_caps=false is not honoured
+        ok   release initramfs contains none of the probe-only strings; the probes initramfs contains all (control)
+        ok   real engine in the VM: DIP strategy on a dip returns buy
+        ok   determinism contract holds in the VM: Date.now() and Math.random() are refused
+        ok   infinite loop is stopped by the engine's CPU budget (well inside the wall clock) and the VM stays healthy
+        ok   meta op works in the VM (cadence/symbols read back)
+PASS  [real-vm]  j. wall clock: guest timeout, poisoned, host kills the VM  (1650 ms)
+        ok   guest reports `timeout` at its own wall clock (300 ms), not when the worker finishes (3 s)
+        ok   after an overrun the guest refuses further work (`poisoned`): the host must discard it
+        ok   host kills the VM: process, jail and cgroup all gone
+        ok   host-side deadline: a guest that never replies is abandoned at the host's timeout (600 ms) and killed
+PASS  [real-vm]  k. intent path through guard + bounded reads from a hostile guest  (3423 ms)
+        ok   a buy decision becomes ONE intent through guard: allowed for a permitted market
+        ok   the same decision is refused for a market outside the owner's list; the guest sees only allowed/denied + a coarse word
+        ok   without an order template no intent is emitted
+        ok   intent from a VM with no tenant bound is refused (fail closed)
+        ok   hostile frames: oversize length claim, stall, garbage JSON, over-cap body all end without a grant
+        ok   unknown field, negative size, 1e999 size: refused
+        ok   host RSS grew < 8 MiB across the hostile frames (no unbounded read) and the guest + VM are still up
+        ok   audit hash chain verifies after all of it, and grew by the intents that reached guard
+PASS  [real-vm]  l. HTTP API on a unix socket only  (1030 ms)
+        ok   POST /v1/decide over the unix socket returns the decision + guard verdict
+        ok   GET /v1/pool answers; the decide came from the warm pool
+        ok   a path-like tenant id is rejected with 400
+        ok   GET /v1/audit verifies the hash chain
+        ok   API socket is mode 0600 and the daemon process holds NO tcp/udp socket
+left on host after the suite: 0 jail dirs, 0 uids still allocated
+12/12 tests passed

@@ -1,0 +1,5 @@
+config,vms,daemon_rss_kib,daemon_hwm_kib,vms_pss_sum_kib,vms_rss_sum_kib,idle_vm_cpu_pct,idle_daemon_cpu_pct,window_s
+pool 0,0,4436,4436,0,0,0.000,0.000,30.0
+pool 16 idle,16,4828,4828,101474,334032,0.845,0.000,30.0
+pool 16 paused,16,4412,4412,50368,51344,0.000,0.000,30.0
+pool 64 idle,64,5368,5368,359644,1337892,3.164,0.000,30.0

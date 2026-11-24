@@ -1,0 +1,54 @@
+
+ RUN  v5.1.0 /Users/USER/Projects/krexa/Krexa/.claude/worktrees/paper-eval/apps/api
+
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > sanity: the host really holds the secret 1ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > process, process.env, Bun.env and every other host global are undefined 128ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > globalThis holds only ECMAScript names, and no key or value contains the secret 4ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > constructor and eval tricks reach the same empty global, not the host 2ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > a strategy cannot return the secret through decide() 5ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > has no network: fetch, XMLHttpRequest, WebSocket are not defined and calling them throws 2ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > has no require, no node module import, no module loader 13ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > has no filesystem: no fs object, no std/os (quickjs-libc), no file APIs, no Bun.file 2ms
+ ✓ src/services/frozen-strategy-isolation.test.ts > sandbox isolation (QuickJS/WASM) > the host can still read the secret afterwards (the sandbox did not touch it) 0ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > runs a valid strategy 141ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > kills an infinite loop fast 507ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > survives a memory bomb and deep recursion 1218ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > throw -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > syntax error -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > missing decide -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > return 42 -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > unknown action -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > missing reason -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > non-string reason -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > undefined -> hold with error 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > import -> hold with error 0ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > refuses source over the size cap 0ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > truncates a long reason 1ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > has no host access 2ms
+ ✓ src/services/frozen-strategy.test.ts > runFrozen > cannot read the clock or randomness 5ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > fills with 25bps both sides and closes an open position at the end 6ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > is deterministic 5ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > equals live: every buy mark is what runFrozen says on that bar 4ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > does not let globals carry state between bars (live gets a fresh VM each call) 2ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > counts errors as holds 2ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen > replays 250 bars fast 146ms
+ ✓ src/services/frozen-strategy.test.ts > target-based orders > reads target from decide(), and rejects one outside 0..1 2ms
+ ✓ src/services/frozen-strategy.test.ts > target-based orders > buy/sell without a target mean all-in / all-out 0ms
+ ✓ src/services/frozen-strategy.test.ts > target-based orders > trades only the difference, and the same target twice is a no-op 0ms
+ ✓ src/services/frozen-strategy.test.ts > target-based orders > replays scale-in and scale-out with a mark per change 2ms
+ ✓ src/services/frozen-strategy.test.ts > target-based orders > gives code that never returns a target the old all-in / all-out result, bit for bit 42ms
+ ✓ src/services/frozen-strategy.test.ts > hashFrozenCode > is stable and sensitive to one character 0ms
+ ✓ src/services/frozen-strategy.test.ts > indicatorLine > draws an agent formula on any bars: null while warming up, then one value per bar 2ms
+ ✓ src/services/frozen-strategy.test.ts > indicatorLine > draws many lines in one pass: each in its own scope, the lookback window applied, a broken one dropped 1ms
+ ✓ src/services/frozen-strategy.test.ts > CPU budget > a bar that runs a little over budget (a busy server) is run again with more time, not counted as an error 34ms
+ ✓ src/services/frozen-strategy.test.ts > CPU budget > a bar that is far over budget, even for the retry, is still an error 56ms
+ ✓ src/services/frozen-strategy.test.ts > CPU budget > a runaway loop still stops with an error 252ms
+ ✓ src/services/frozen-strategy.test.ts > withHardStop > cuts a run whose wall-clock stop has passed, and only inside its own scope 3ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen with the owner stop > closes a position that falls past the stop, before the code runs 2ms
+ ✓ src/services/frozen-strategy.test.ts > replayFrozen with the owner stop > changes nothing without a stop 2ms
+
+ Test Files  2 passed (2)
+      Tests  45 passed (45)
+   Start at  16:44:14
+   Duration  2.65s (tests 93%, import 4%, transform 2%)
+

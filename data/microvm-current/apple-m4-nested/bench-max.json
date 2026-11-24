@@ -1,0 +1,72 @@
+[
+  {
+    "bench": "max",
+    "id": "max_vms",
+    "max": 62.0,
+    "mean": 62.0,
+    "metric": "max concurrent restored VMs (idle, init done, 96 MiB guest) -- init failed at VM 63: guest reply timeout after 5s",
+    "min": 62.0,
+    "n": 1,
+    "note": "0/62 still answered a ping at the end; teardown of all took 2.4 s",
+    "p50": 62.0,
+    "p95": 62.0,
+    "p99": 62.0,
+    "unit": "VMs"
+  },
+  {
+    "bench": "max",
+    "id": "max_restore",
+    "max": 258.042,
+    "mean": 192.188,
+    "metric": "restore latency while ramping (every VM)",
+    "min": 150.237,
+    "n": 62,
+    "note": "p95 of first 10 189 ms, last 10 258 ms",
+    "p50": 188.693,
+    "p95": 237.153,
+    "p99": 258.042,
+    "unit": "ms"
+  },
+  {
+    "bench": "max",
+    "id": "max_memavail",
+    "max": 1.948,
+    "mean": 1.948,
+    "metric": "host MemAvailable consumed per VM at the end of the ramp",
+    "min": 1.948,
+    "n": 1,
+    "note": "MemAvailable 11338 MiB -> 11217 MiB; sum of VM PSS 258 MiB",
+    "p50": 1.948,
+    "p95": 1.948,
+    "p99": 1.948,
+    "unit": "MiB"
+  },
+  {
+    "bench": "max",
+    "id": "max_ping",
+    "max": null,
+    "mean": -0.0,
+    "metric": "ping round trip across all 0 live VMs",
+    "min": null,
+    "n": 0,
+    "note": "",
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "unit": "ms"
+  },
+  {
+    "bench": "max",
+    "id": "max_cpu",
+    "max": 798.286,
+    "mean": 798.286,
+    "metric": "idle CPU of all 62 VMs together",
+    "min": 798.286,
+    "n": 1,
+    "note": "10 s window",
+    "p50": 798.286,
+    "p95": 798.286,
+    "p99": 798.286,
+    "unit": "% of 1 CPU"
+  }
+]

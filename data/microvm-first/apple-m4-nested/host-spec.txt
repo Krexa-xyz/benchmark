@@ -1,0 +1,66 @@
+date: 2026-11-20T12:09:38.485Z
+repo commit: 9ac2d34e
+NOTE: nested virtualization on Apple Silicon (Lima vz on M4 Pro). Isolation results are valid; latency numbers are NOT representative of bare metal.
+uname -r: 6.8.0-142-generic
+firecracker: Firecracker v1.18.0
+--- lscpu ---
+Architecture:                            aarch64
+CPU op-mode(s):                          64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+Vendor ID:                               Apple
+BIOS Vendor ID:                          Apple Inc.
+Model name:                              -
+BIOS Model name:                           CPU @ 0.0GHz
+BIOS CPU family:                         257
+Model:                                   0
+Thread(s) per core:                      1
+Core(s) per cluster:                     8
+Socket(s):                               1
+Cluster(s):                              1
+Stepping:                                0x0
+BogoMIPS:                                48.00
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 bti afp rpres
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-7
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; CSV2, but not BHB
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+--- free -m ---
+total        used        free      shared  buff/cache   available
+Mem:           11934         946        5372           1        5841       10988
+Swap:              0           0           0
+--- lock files ---
+firecracker_version=Firecracker v1.18.0
+firecracker_tgz_sha256=2a6130ff0338901ff9d7fbd73ce046c6b1c6123889dc84a34d678aa53bd0c0c2
+firecracker_bin_sha256=6f9e08df0a0072e3e7086c51ff434c034d705845e349175a01beb3f9cc025ce3
+jailer_bin_sha256=7ea8f46abdc6f1d1a0b58ce89ce6ca38be8a292a43d7e61cf88275318263c540
+bun_version=1.4.4
+bun_bin_sha256=354c2b049c716aca07b2e5cddb887928ac58950675d1258bb6312083917793b6
+host_kernel=6.8.0-142-generic
+
+alpine_minirootfs_url=https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.4-aarch64.tar.gz
+alpine_minirootfs_sha256=4b14c18f7e90a063b61462ea1462a5732c154bf6adad594974fe6487cd98a8de
+kernel_url=https://s3.amazonaws.com/spec.ccfc.min/firecracker-ci/20261118-6d7cfa9c6b53-0/aarch64/vmlinux-6.1.188
+kernel_sha256=ab74e3c3e1ee1c7efc6ffabf0fa62298e9384f4243333cef37e705dbea06c7a1
+kernel_config_sha256=d52cc45ca86f338ffbe456140b61fe79cd391ad8b4a7f38bc8ec24ceefb787d9
+rootfs_sha256=016cca685c7d2366ab4e759c1e63c434b13a28071436bab27bcdc4c3e93f8d7c
+rootfs_size_bytes=201326592
+agent_py_sha256=48796e13d747ae9d9ca54b5f06ae85c815652523d24dcf9b83553a8f53ec4c2b
+sdk_py_sha256=7a55f2aaa75a74c8d6411e177f6e6513aae4e5c8a2d46f2a5473b663ab2c3da2
+

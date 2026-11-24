@@ -1,0 +1,95 @@
+WORDING import held
+WORDING probe #0
+WORDING probe #22
+WORDING probe #78
+WORDING probe #97
+WORDING probe #101
+WORDING probe #104
+WORDING probe #111
+WORDING probe #119
+WORDING probe #135
+WORDING probe #153
+WORDING probe #156
+WORDING probe #159
+WORDING probe #168
+cases 444  identical 430 (of which key-order differs 0)  wording-only 14  MISMATCH 0   seed 1
+  fixed/v2  n= 47 identical= 46 wording=  1 mismatch=0
+  random    n=120 identical=120 wording=  0 mismatch=0
+  probe     n=171 identical=158 wording= 13 mismatch=0
+  meta      n=106 identical=106 wording=  0 mismatch=0
+WORDING import held
+WORDING probe #0
+WORDING probe #22
+WORDING probe #78
+WORDING probe #97
+WORDING probe #101
+WORDING probe #104
+WORDING probe #111
+WORDING probe #119
+WORDING probe #135
+WORDING probe #153
+WORDING probe #156
+WORDING probe #159
+WORDING probe #168
+cases 444  identical 430 (of which key-order differs 0)  wording-only 14  MISMATCH 0   seed 2
+  fixed/v2  n= 47 identical= 46 wording=  1 mismatch=0
+  random    n=120 identical=120 wording=  0 mismatch=0
+  probe     n=171 identical=158 wording= 13 mismatch=0
+  meta      n=106 identical=106 wording=  0 mismatch=0
+WORDING import held
+WORDING probe #0
+WORDING probe #22
+WORDING probe #78
+WORDING probe #97
+WORDING probe #101
+WORDING probe #104
+WORDING probe #111
+WORDING probe #119
+WORDING probe #135
+WORDING probe #153
+WORDING probe #156
+WORDING probe #159
+WORDING probe #168
+cases 444  identical 430 (of which key-order differs 0)  wording-only 14  MISMATCH 0   seed 3
+  fixed/v2  n= 47 identical= 46 wording=  1 mismatch=0
+  random    n=120 identical=120 wording=  0 mismatch=0
+  probe     n=171 identical=158 wording= 13 mismatch=0
+  meta      n=106 identical=106 wording=  0 mismatch=0
+WORDING import held
+WORDING probe #0
+WORDING probe #22
+WORDING probe #78
+WORDING probe #97
+WORDING probe #101
+WORDING probe #104
+WORDING probe #111
+WORDING probe #119
+WORDING probe #135
+WORDING probe #153
+WORDING probe #156
+WORDING probe #159
+WORDING probe #168
+cases 444  identical 430 (of which key-order differs 0)  wording-only 14  MISMATCH 0   seed 4
+  fixed/v2  n= 47 identical= 46 wording=  1 mismatch=0
+  random    n=120 identical=120 wording=  0 mismatch=0
+  probe     n=171 identical=158 wording= 13 mismatch=0
+  meta      n=106 identical=106 wording=  0 mismatch=0
+WORDING import held
+WORDING probe #0
+WORDING probe #22
+WORDING probe #78
+WORDING probe #97
+WORDING probe #101
+WORDING probe #104
+WORDING probe #111
+WORDING probe #119
+WORDING probe #135
+WORDING probe #153
+WORDING probe #156
+WORDING probe #159
+WORDING probe #168
+cases 444  identical 430 (of which key-order differs 0)  wording-only 14  MISMATCH 0   seed 5
+  fixed/v2  n= 47 identical= 46 wording=  1 mismatch=0
+  random    n=120 identical=120 wording=  0 mismatch=0
+  probe     n=171 identical=158 wording= 13 mismatch=0
+  meta      n=106 identical=106 wording=  0 mismatch=0

@@ -1,0 +1,72 @@
+[
+  {
+    "bench": "build",
+    "id": "build_total",
+    "max": 3004.716,
+    "mean": 2478.75,
+    "metric": "template build, total (boot + settle + snapshot + root-owned copy)",
+    "min": 2292.346,
+    "n": 100,
+    "note": "one-time per image; 96 MiB guest, 1 vCPU",
+    "p50": 2460.414,
+    "p95": 2654.307,
+    "p99": 2734.499,
+    "unit": "ms"
+  },
+  {
+    "bench": "build",
+    "id": "build_boot",
+    "max": 2049.44,
+    "mean": 1634.007,
+    "metric": "  of which cold boot to ready",
+    "min": 1484.646,
+    "n": 100,
+    "note": "",
+    "p50": 1622.619,
+    "p95": 1777.762,
+    "p99": 1836.733,
+    "unit": "ms"
+  },
+  {
+    "bench": "build",
+    "id": "build_settle",
+    "max": 311.38,
+    "mean": 306.537,
+    "metric": "  of which settle (3 pings + fixed 300 ms idle sleep)",
+    "min": 303.825,
+    "n": 100,
+    "note": "300 ms of this is a deliberate sleep",
+    "p50": 306.193,
+    "p95": 309.67,
+    "p99": 310.963,
+    "unit": "ms"
+  },
+  {
+    "bench": "build",
+    "id": "build_snap",
+    "max": 236.761,
+    "mean": 137.949,
+    "metric": "  of which pause + Full snapshot",
+    "min": 98.912,
+    "n": 100,
+    "note": "",
+    "p50": 131.902,
+    "p95": 195.019,
+    "p99": 214.946,
+    "unit": "ms"
+  },
+  {
+    "bench": "build",
+    "id": "build_copy",
+    "max": 429.599,
+    "mean": 384.59,
+    "metric": "  of which copy-out to root-owned 0444 files + sha256",
+    "min": 362.047,
+    "n": 100,
+    "note": "",
+    "p50": 381.926,
+    "p95": 407.407,
+    "p99": 422.735,
+    "unit": "ms"
+  }
+]

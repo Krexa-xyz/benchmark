@@ -1,0 +1,6 @@
+{"workers":1,"workload":"dip120","calls":19530,"wall_s":5.000104375,"calls_per_s":3905.918463952065,"error_replies":0}
+{"workers":2,"workload":"dip120","calls":37820,"wall_s":5.0000045,"calls_per_s":7563.993192406127,"error_replies":0}
+{"workers":4,"workload":"dip120","calls":74586,"wall_s":5.00003575,"calls_per_s":14917.093342782598,"error_replies":0}
+{"workers":8,"workload":"dip120","calls":96371,"wall_s":5.000042834,"calls_per_s":19274.03488319796,"error_replies":0}
+{"workers":14,"workload":"dip120","calls":108163,"wall_s":5.00000275,"calls_per_s":21632.588102076545,"error_replies":0}
+{"workers":14,"workload":"trivial","calls":215974,"wall_s":5.000015291,"calls_per_s":43194.66790206662,"error_replies":0}

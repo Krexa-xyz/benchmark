@@ -1,0 +1,16 @@
+[
+  {
+    "bench": "ping",
+    "id": "ping",
+    "max": 4.804,
+    "mean": 0.171,
+    "metric": "ping round trip on a warm VM (host -> vsock UDS -> guest -> back)",
+    "min": 0.107,
+    "n": 200,
+    "note": "framed JSON over the persistent connection",
+    "p50": 0.123,
+    "p95": 0.247,
+    "p99": 0.639,
+    "unit": "ms"
+  }
+]

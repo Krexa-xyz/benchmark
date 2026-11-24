@@ -1,0 +1,998 @@
+{
+  "at": "2026-11-23T16:22:33.623Z",
+  "results": [
+    {
+      "id": "4",
+      "name": "secret-bearing VM configs are refused (no process, no jail, no uid)",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "refused: env name PRIVATE_KEY",
+          "pass": true,
+          "detail": "refusing VM config: env name PRIVATE_KEY looks like a secret (secret_name)"
+        },
+        {
+          "name": "refused: env name SECRET",
+          "pass": true,
+          "detail": "refusing VM config: env name MY_SECRET looks like a secret (secret_name)"
+        },
+        {
+          "name": "refused: env name MNEMONIC",
+          "pass": true,
+          "detail": "refusing VM config: env name MNEMONIC looks like a secret (secret_name)"
+        },
+        {
+          "name": "refused: env value 0x+64hex",
+          "pass": true,
+          "detail": "refusing VM config: env FOO looks like a secret (0x+64hex)"
+        },
+        {
+          "name": "refused: env value base58 64-byte key",
+          "pass": true,
+          "detail": "refusing VM config: env FOO looks like a secret (base58_64byte_key)"
+        },
+        {
+          "name": "refused: env value AWS key",
+          "pass": true,
+          "detail": "refusing VM config: env FOO looks like a secret (aws_access_key)"
+        },
+        {
+          "name": "refused: env value sk- token",
+          "pass": true,
+          "detail": "refusing VM config: env FOO looks like a secret (sk_token)"
+        },
+        {
+          "name": "refused: kernel arg value sk-",
+          "pass": true,
+          "detail": "refusing VM config: kernel args looks like a secret (sk_token)"
+        },
+        {
+          "name": "refused: kernel arg name PRIVATE_KEY",
+          "pass": true,
+          "detail": "refusing VM config: kernel arg PRIVATE_KEY looks like a secret (secret_name)"
+        },
+        {
+          "name": "refused: kernel arg 0x+64hex",
+          "pass": true,
+          "detail": "refusing VM config: kernel args looks like a secret (0x+64hex)"
+        },
+        {
+          "name": "refused: file with PEM key",
+          "pass": true,
+          "detail": "refusing VM config: file a.txt looks like a secret (pem_private_key)"
+        },
+        {
+          "name": "refused: file named .env",
+          "pass": true,
+          "detail": "refusing VM config: file name .env looks like a secret (secret_name)"
+        },
+        {
+          "name": "refused: file with solana keypair json",
+          "pass": true,
+          "detail": "refusing VM config: file k.json looks like a secret (solana_keypair_json)"
+        },
+        {
+          "name": "a clean config is accepted",
+          "pass": true
+        },
+        {
+          "name": "no jail directory was created by any refused config",
+          "pass": true,
+          "detail": "jails before=0 after=0"
+        }
+      ],
+      "ms": 1
+    },
+    {
+      "id": "a",
+      "name": "outbound network fails; only lo exists",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "TCP 1.1.1.1:443 fails fast with no-route errno",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":0,\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}"
+        },
+        {
+          "name": "TCP 169.254.169.254:80 (metadata) fails fast",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":0,\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}"
+        },
+        {
+          "name": "TCP6 [2606:4700:4700::1111]:443 fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":0,\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}"
+        },
+        {
+          "name": "DNS getaddrinfo(example.com) fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"name\":\"gaierror\",\"errno\":-3,\"msg\":\"[Errno -3] Try again\"}"
+        },
+        {
+          "name": "UDP send to 1.1.1.1:53 fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}"
+        },
+        {
+          "name": "/sys/class/net == ['lo']",
+          "pass": true,
+          "detail": "[\"lo\"]"
+        },
+        {
+          "name": "/proc/net/dev lists only lo",
+          "pass": true,
+          "detail": "[\"lo\"]"
+        },
+        {
+          "name": "no routes configured",
+          "pass": true,
+          "detail": "[]"
+        },
+        {
+          "name": "host gained no new network interface (no tap)",
+          "pass": true,
+          "detail": "enp39s0,lo -> enp39s0,lo"
+        }
+      ],
+      "evidence": {
+        "tcp_1.1.1.1:443": {
+          "ok": false,
+          "ms": 0,
+          "errno": 101,
+          "name": "ENETUNREACH",
+          "msg": "[Errno 101] Network unreachable"
+        },
+        "tcp_169.254.169.254:80": {
+          "ok": false,
+          "ms": 0,
+          "errno": 101,
+          "name": "ENETUNREACH",
+          "msg": "[Errno 101] Network unreachable"
+        },
+        "tcp6_[2606:4700:4700::1111]:443": {
+          "ok": false,
+          "ms": 0,
+          "errno": 101,
+          "name": "ENETUNREACH",
+          "msg": "[Errno 101] Network unreachable"
+        },
+        "dns_example.com": {
+          "ok": false,
+          "name": "gaierror",
+          "errno": -3,
+          "msg": "[Errno -3] Try again"
+        },
+        "udp_1.1.1.1:53": {
+          "ok": false,
+          "errno": 101,
+          "name": "ENETUNREACH",
+          "msg": "[Errno 101] Network unreachable"
+        },
+        "ifaces": [
+          "lo"
+        ],
+        "proc_net_dev": [
+          "lo"
+        ],
+        "routes": [],
+        "resolv_conf_exists": false
+      },
+      "ms": 5886
+    },
+    {
+      "id": "b",
+      "name": "host filesystem unreachable; only rootfs + own scratch visible",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "none of the host paths exist in the guest",
+          "pass": true,
+          "detail": "22 paths probed, all ENOENT"
+        },
+        {
+          "name": "guest filesystem has none of: gateway.ts, firecracker, jailer, scratch.ext4, rootfs.ext4, v.sock",
+          "pass": true,
+          "detail": "[]"
+        },
+        {
+          "name": "block devices with non-zero capacity == [vda, vdb]",
+          "pass": true,
+          "detail": "{\"loop0\":{\"sectors\":0,\"ro\":0},\"loop1\":{\"sectors\":0,\"ro\":0},\"loop2\":{\"sectors\":0,\"ro\":0},\"loop3\":{\"sectors\":0,\"ro\":0},\"loop4\":{\"sectors\":0,\"ro\":0},\"loop5\":{\"sectors\":0,\"ro\":0},\"loop6\":{\"sectors\":0,\"ro\":0},\"loop7\":{\"sectors\":0,\"ro\":0},\"vda\":{\"sectors\":393216,\"ro\":1},\"vdb\":{\"sectors\":32768,\"ro\":0}}"
+        },
+        {
+          "name": "any loop devices are unbound (0 sectors)",
+          "pass": true,
+          "detail": "8 loop nodes"
+        },
+        {
+          "name": "vda (rootfs) is read-only, vdb (scratch) is writable",
+          "pass": true
+        },
+        {
+          "name": "scratch is 16 MiB",
+          "pass": true,
+          "detail": "32768 sectors"
+        },
+        {
+          "name": "/dev has only vda, vdb as real block nodes (plus unbound loop*)",
+          "pass": true,
+          "detail": "[\"loop-control\",\"loop0\",\"loop1\",\"loop2\",\"loop3\",\"loop4\",\"loop5\",\"loop6\",\"loop7\",\"vda\",\"vdb\"]"
+        },
+        {
+          "name": "no virtiofs/9p/nfs/overlay mount present",
+          "pass": true,
+          "detail": "[\"/dev/root / ext4\",\"devtmpfs /dev devtmpfs\",\"proc /proc proc\",\"sysfs /sys sysfs\",\"tmpfs /run tmpfs\",\"tmpfs /tmp tmpfs\",\"/dev/vdb /scratch ext4\"]"
+        },
+        {
+          "name": "virtio devices: exactly 3 (2 blk + vsock)",
+          "pass": true,
+          "detail": "[\"virtio0\",\"virtio1\",\"virtio2\"]"
+        }
+      ],
+      "evidence": {
+        "paths": {
+          "/Users": "ENOENT",
+          "/Users/USER": "ENOENT",
+          "/home/USER.linux": "ENOENT",
+          "/home/USER": "ENOENT",
+          "/home/ubuntu/kbox/sandbox": "ENOENT",
+          "/home/ubuntu/kbox/sandbox/gateway/src/gateway.ts": "ENOENT",
+          "/var/lib/krexa-fc": "ENOENT",
+          "/var/lib/krexa-fc/jail": "ENOENT",
+          "/var/lib/krexa-fc/images/rootfs.ext4": "ENOENT",
+          "/var/lib/krexa-fc/bin/firecracker": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root/scratch.ext4": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root/v.sock": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2/root": "ENOENT",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2/root/scratch.ext4": "ENOENT",
+          "/etc/lima-boot.conf": "ENOENT",
+          "/mnt/lima-cidata": "ENOENT",
+          "/run/lima-guestagent.sock": "ENOENT",
+          "/sys/fs/cgroup/firecracker": "ENOENT"
+        },
+        "found_names": [],
+        "root_listing": [
+          "bin",
+          "dev",
+          "etc",
+          "home",
+          "lib",
+          "lost+found",
+          "media",
+          "mnt",
+          "opt",
+          "proc",
+          "root",
+          "run",
+          "sbin",
+          "scratch",
+          "srv",
+          "sys",
+          "tmp",
+          "usr",
+          "var"
+        ],
+        "block_devices": {
+          "loop0": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop1": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop2": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop3": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop4": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop5": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop6": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "loop7": {
+            "sectors": 0,
+            "ro": 0
+          },
+          "vda": {
+            "sectors": 393216,
+            "ro": 1
+          },
+          "vdb": {
+            "sectors": 32768,
+            "ro": 0
+          }
+        },
+        "proc_partitions": [
+          "vda",
+          "vdb"
+        ],
+        "dev_nodes_vd": [
+          "loop-control",
+          "loop0",
+          "loop1",
+          "loop2",
+          "loop3",
+          "loop4",
+          "loop5",
+          "loop6",
+          "loop7",
+          "vda",
+          "vdb"
+        ],
+        "mounts": [
+          "/dev/root / ext4",
+          "devtmpfs /dev devtmpfs",
+          "proc /proc proc",
+          "sysfs /sys sysfs",
+          "tmpfs /run tmpfs",
+          "tmpfs /tmp tmpfs",
+          "/dev/vdb /scratch ext4"
+        ],
+        "virtio_devices": [
+          "virtio0",
+          "virtio1",
+          "virtio2"
+        ],
+        "probed": [
+          "/Users",
+          "/Users/USER",
+          "/home/USER.linux",
+          "/home/USER",
+          "/home/ubuntu/kbox/sandbox",
+          "/home/ubuntu/kbox/sandbox/gateway/src/gateway.ts",
+          "/var/lib/krexa-fc",
+          "/var/lib/krexa-fc/jail",
+          "/var/lib/krexa-fc/images/rootfs.ext4",
+          "/var/lib/krexa-fc/bin/firecracker",
+          "/var/lib/krexa-fc",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root/scratch.ext4",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-1/root/v.sock",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2/root",
+          "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-b-2/root/scratch.ext4",
+          "/etc/lima-boot.conf",
+          "/mnt/lima-cidata",
+          "/run/lima-guestagent.sock",
+          "/sys/fs/cgroup/firecracker"
+        ]
+      },
+      "ms": 1730
+    },
+    {
+      "id": "c",
+      "name": "no keys anywhere in the guest (fs, environ, cmdline); scanner proven by positive control",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "scanner control: planted fakes detected for every pattern",
+          "pass": true,
+          "detail": "[\"0x_hex64\",\"aws_access_key\",\"bare_hex64\",\"base58_64byte_key\",\"pem_private\",\"secret_assign\",\"sk_token\"]"
+        },
+        {
+          "name": "zero secret-pattern hits across guest filesystem (after the 2 reviewed upstream false positives)",
+          "pass": true,
+          "detail": "1324 files / 45.3 MiB scanned; unexplained hits=[]; allowlisted=[\"/etc/ssl/openssl.cnf:secret_assign\",\"/etc/ssl/openssl.cnf.dist:secret_assign\",\"/usr/lib/libsqlite3.so.3.53.4:bare_hex64\"]"
+        },
+        {
+          "name": "zero hits in /proc/*/environ, /proc/*/cmdline, /proc/cmdline",
+          "pass": true,
+          "detail": "64 procs; hits=[]"
+        }
+      ],
+      "evidence": {
+        "cmdline": "console=ttyS0 reboot=k panic=1 pci=off root=/dev/vda ro rootfstype=ext4 init=/sbin/init 8250.nr_uarts=1 random.trust_cpu=on quiet loglevel=3 pci=off root=/dev/vda ro virtio_mmio.device=4K@0xc0001000:5 virtio_mmio.device=4K@0xc0002000:6 virtio_mmio.device=4K@0xc0003000:7",
+        "files": 1324,
+        "bytes": 47526628,
+        "allowlisted": [
+          {
+            "path": "/etc/ssl/openssl.cnf",
+            "pattern": "secret_assign"
+          },
+          {
+            "path": "/etc/ssl/openssl.cnf.dist",
+            "pattern": "secret_assign"
+          },
+          {
+            "path": "/usr/lib/libsqlite3.so.3.53.4",
+            "pattern": "bare_hex64"
+          }
+        ]
+      },
+      "ms": 5330
+    },
+    {
+      "id": "d",
+      "name": "lifecycle: boot -> intent -> snapshot -> restore -> intent -> teardown; scratch not reused",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "intent before snapshot reached the gateway, attributed to the connection (agent-lc/run-lc-1)",
+          "pass": true,
+          "detail": "[{\"at\":\"2026-11-23T16:21:53.592Z\",\"runId\":\"run-lc-1\",\"agentId\":\"agent-lc\",\"kind\":\"intent\",\"detail\":\"eval:BTC buy 50@100.49999999999999 -> eval\",\"allowed\":false}]"
+        },
+        {
+          "name": "original VM fully gone after teardown (process, jail dir incl. scratch disk, cgroup)",
+          "pass": true,
+          "detail": "{\"process\":true,\"jail\":true,\"cgroup\":true}"
+        },
+        {
+          "name": "restore succeeded and guest answered",
+          "pass": true,
+          "detail": "restore->ready 68 ms"
+        },
+        {
+          "name": "intent after restore reached the gateway (agent-lc/run-lc-2)",
+          "pass": true,
+          "detail": "[{\"at\":\"2026-11-23T16:21:53.942Z\",\"runId\":\"run-lc-2\",\"agentId\":\"agent-lc\",\"kind\":\"intent\",\"detail\":\"eval:BTC buy 50@100.49999999999999 -> eval\",\"allowed\":false}]"
+        },
+        {
+          "name": "restored VM continues the snapshotted state (marker present - expected, same lineage)",
+          "pass": true
+        },
+        {
+          "name": "restored VM fully gone after teardown",
+          "pass": true,
+          "detail": "{\"process\":true,\"jail\":true,\"cgroup\":true}"
+        },
+        {
+          "name": "FRESH VM does not see the marker (scratch recreated, not reused)",
+          "pass": true,
+          "detail": "{}"
+        },
+        {
+          "name": "fresh VM got a different scratch image path than any earlier VM",
+          "pass": true,
+          "detail": "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-d-2/root/scratch.ext4"
+        },
+        {
+          "name": "marker is absent from every file under jail/ and snapshots/ after cleanup",
+          "pass": true,
+          "detail": "grep -r found nothing"
+        }
+      ],
+      "evidence": {
+        "restoreMs": 67.97283999999854,
+        "gatewayLog": [
+          {
+            "at": "2026-11-23T16:21:53.591Z",
+            "runId": "run-lc-1",
+            "agentId": "agent-lc",
+            "kind": "market",
+            "detail": "eval:BTC.mid",
+            "allowed": true
+          },
+          {
+            "at": "2026-11-23T16:21:53.592Z",
+            "runId": "run-lc-1",
+            "agentId": "agent-lc",
+            "kind": "intent",
+            "detail": "eval:BTC buy 50@100.49999999999999 -> eval",
+            "allowed": false
+          },
+          {
+            "at": "2026-11-23T16:21:53.941Z",
+            "runId": "run-lc-2",
+            "agentId": "agent-lc",
+            "kind": "market",
+            "detail": "eval:BTC.mid",
+            "allowed": true
+          },
+          {
+            "at": "2026-11-23T16:21:53.942Z",
+            "runId": "run-lc-2",
+            "agentId": "agent-lc",
+            "kind": "intent",
+            "detail": "eval:BTC buy 50@100.49999999999999 -> eval",
+            "allowed": false
+          }
+        ]
+      },
+      "ms": 2063
+    },
+    {
+      "id": "e",
+      "name": "memory bomb + CPU spin contained in VM 1; VM 2 latency and host stay healthy",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "membomb: allocating child was killed inside the guest (OOM) or hit MemoryError; agent survived",
+          "pass": true,
+          "detail": "{\"signal\":9,\"exit\":null,\"kmsg\":[\"4,271,2535093,-;Thread-1 (serve invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-1000\",\"6,330,2535538,-;oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=Thread-1 (serve,pid=299,uid=0\",\"3,331,2535546,-;Out of memory: Killed process 299 (Thread-1 (serve) total-vm:97944kB, anon-rss:87708kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:228kB oom_sc\"]}"
+        },
+        {
+          "name": "membomb: VM 1 host cgroup peak stayed within memory.max",
+          "pass": true,
+          "detail": "peak 128 MiB / max 256 MiB; events: low 0 high 0 max 0 oom 0 oom_kill 0 oom_group_kill 0 sock_throttled 0"
+        },
+        {
+          "name": "membomb: host MemAvailable dropped < 400 MiB at worst",
+          "pass": true,
+          "detail": "before 30463 MiB, min 30400 MiB"
+        },
+        {
+          "name": "spin: VM 1 used <= 1.15 CPU (quota 1.0) while 2 vCPUs spun",
+          "pass": true,
+          "detail": "6.06 CPU-s in 6.04 s = 1.00 CPUs; throttled +6.00 s"
+        },
+        {
+          "name": "spin: cgroup actually throttled VM 1",
+          "pass": true
+        },
+        {
+          "name": "VM 2 ping p99 during bomb < 250 ms",
+          "pass": true,
+          "detail": "baseline p50 1.1 p99 2.0 ms; bomb n=24 p50 1.0 p99 1.5 max 1.5 ms"
+        },
+        {
+          "name": "VM 2 ping p99 during spin < 250 ms",
+          "pass": true,
+          "detail": "spin n=284 p50 1.1 p99 2.1 max 2.9 ms"
+        },
+        {
+          "name": "host stays responsive: event-loop lag p99 < 100 ms throughout",
+          "pass": true,
+          "detail": "p99 1.0 ms, max 1.1 ms, n=693"
+        }
+      ],
+      "evidence": {
+        "baselineRtt": {
+          "p50": 1.0749749999995402,
+          "p99": 1.9763029999994615
+        },
+        "bomb": {
+          "child_signaled": true,
+          "signal": 9,
+          "exit_code": null,
+          "seconds": 0.49,
+          "mem_before_kb": {
+            "MemTotal": 106572,
+            "MemAvailable": 78532
+          },
+          "mem_after_kb": {
+            "MemTotal": 106572,
+            "MemAvailable": 78592
+          },
+          "kmsg_oom": [
+            "4,271,2535093,-;Thread-1 (serve invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-1000",
+            "6,330,2535538,-;oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=Thread-1 (serve,pid=299,uid=0",
+            "3,331,2535546,-;Out of memory: Killed process 299 (Thread-1 (serve) total-vm:97944kB, anon-rss:87708kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:228kB oom_sc"
+          ],
+          "agent_alive": true
+        },
+        "spin": {
+          "spinners": 2,
+          "wall_s": 6.03,
+          "children_cpu_s": 6.28
+        },
+        "statsBeforeBomb": {
+          "rssKiB": 60712,
+          "pssKiB": 60696,
+          "cgroupMemCurrent": 61235200,
+          "cgroupMemPeak": 61263872,
+          "cgroupMemMax": "268435456",
+          "memEvents": "low 0 high 0 max 0 oom 0 oom_kill 0 oom_group_kill 0 sock_throttled 0",
+          "cpuUsageUsec": 421355,
+          "cpuThrottledUsec": 35567
+        },
+        "statsAfterBomb": {
+          "rssKiB": 131980,
+          "pssKiB": 131964,
+          "cgroupMemCurrent": 134373376,
+          "cgroupMemPeak": 134373376,
+          "cgroupMemMax": "268435456",
+          "memEvents": "low 0 high 0 max 0 oom 0 oom_kill 0 oom_group_kill 0 sock_throttled 0",
+          "cpuUsageUsec": 759490,
+          "cpuThrottledUsec": 35567
+        }
+      },
+      "ms": 8746
+    },
+    {
+      "id": "f",
+      "name": "escape attempts: fork bomb, /dev/mem, raw block write, mounts, raw sockets",
+      "mode": "real-vm",
+      "pass": false,
+      "checks": [
+        {
+          "name": "fork bomb contained: guest procs recovered after the group kill, agent + VM alive",
+          "pass": true,
+          "detail": "{\"baseline_procs\":66,\"peak_procs\":786,\"procs_after_cleanup\":65,\"bomb_secs\":8,\"recovery_s\":0,\"kmsg_oom\":[],\"meminfo_kb\":{\"MemTotal\":106572,\"MemAvailable\":76724},\"agent_alive\":true}"
+        },
+        {
+          "name": "/dev/mem, /dev/kmem, /dev/port: no write succeeded",
+          "pass": false,
+          "detail": "{\"/dev/mem\":{\"exists\":true,\"open_rw\":\"OK\",\"write_offset0\":\"OK (WRITE SUCCEEDED)\",\"read_ram_0x80000000\":{\"errno\":14,\"name\":\"EFAULT\",\"msg\":\"[Errno 14] Bad address\"}},\"/dev/kmem\":{\"exists\":false,\"open_rw\":{\"errno\":2,\"name\":\"ENOENT\",\"msg\":\"[Errno 2] No such file or directory: '/dev/kmem'\"}}}"
+        },
+        {
+          "name": "raw write to /dev/vda (rootfs) failed, with and without BLKROSET",
+          "pass": true,
+          "detail": "{\"O_RDWR\":{\"open\":\"OK\",\"write\":{\"errno\":1,\"name\":\"EPERM\",\"msg\":\"[Errno 1] Operation not permitted\"}},\"BLKROSET_then_write\":{\"blkroset\":\"OK\",\"open\":\"OK\",\"write\":{\"errno\":1,\"name\":\"EPERM\",\"msg\":\"[Errno 1] Operation not permitted\"}}}"
+        },
+        {
+          "name": "writes to rootfs files fail with EROFS (30)",
+          "pass": true,
+          "detail": "[\"EROFS\",\"EROFS\"]"
+        },
+        {
+          "name": "rootfs image on the host is byte-identical after all attacks",
+          "pass": true,
+          "detail": "sha256 71bdf541649d324ef75c4b37d7dc249467c3d76572b68c824577c63914685242"
+        },
+        {
+          "name": "mount: remount / rw, mount /dev/vda rw, 9p, virtiofs, nfs all fail; / still ro",
+          "pass": true,
+          "detail": "{\"remount_root_rw\":{\"errno\":13,\"name\":\"EACCES\",\"msg\":\"Permission denied\"},\"mount_vda_ext4_rw\":{\"errno\":13,\"name\":\"EACCES\",\"msg\":\"Permission denied\"},\"mount_9p_host\":{\"errno\":19,\"name\":\"ENODEV\",\"msg\":\"No such device\"},\"mount_virtiofs_host\":{\"errno\":19,\"name\":\"ENODEV\",\"msg\":\"No such device\"},\"mount_nfs_host\":{\"errno\":22,\"name\":\"EINVAL\",\"msg\":\"Invalid argument\"},\"mount_tmpfs_in_guest (contained, guest-only)\":\"OK\",\"root_still_ro\":true}"
+        },
+        {
+          "name": "raw sockets: nothing leaves (send fails; no eth0 to bind)",
+          "pass": true,
+          "detail": "{\"AF_PACKET/SOCK_RAW\":{\"create\":\"OK\",\"bind_eth0\":{\"errno\":19,\"name\":\"ENODEV\",\"msg\":\"[Errno 19] No such device\"}},\"AF_INET/SOCK_RAW/ICMP\":{\"create\":\"OK\",\"send_1.1.1.1\":{\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}},\"AF_INET/SOCK_RAW/RAW\":{\"create\":\"OK\",\"send_1.1.1.1\":{\"errno\":101,\"name\":\"ENETUNREACH\",\"msg\":\"[Errno 101] Network unreachable\"}}}"
+        },
+        {
+          "name": "host jail unchanged by the attacks (same pid, uid, seccomp)",
+          "pass": true
+        },
+        {
+          "name": "guest kernel OOPS (/dev/port write): neighbor VM unaffected, victim jail intact, host process alive",
+          "pass": true,
+          "detail": "victim: guest survived the write; neighbor ping ok=true; victim console: "
+        }
+      ],
+      "evidence": {
+        "fork": {
+          "baseline_procs": 66,
+          "peak_procs": 786,
+          "procs_after_cleanup": 65,
+          "bomb_secs": 8,
+          "recovery_s": 0,
+          "kmsg_oom": [],
+          "meminfo_kb": {
+            "MemTotal": 106572,
+            "MemAvailable": 76724
+          },
+          "agent_alive": true
+        },
+        "mem": {
+          "/dev/mem": {
+            "exists": true,
+            "open_rw": "OK",
+            "write_offset0": "OK (WRITE SUCCEEDED)",
+            "read_ram_0x80000000": {
+              "errno": 14,
+              "name": "EFAULT",
+              "msg": "[Errno 14] Bad address"
+            }
+          },
+          "/dev/kmem": {
+            "exists": false,
+            "open_rw": {
+              "errno": 2,
+              "name": "ENOENT",
+              "msg": "[Errno 2] No such file or directory: '/dev/kmem'"
+            }
+          }
+        },
+        "blk": {
+          "O_RDWR": {
+            "open": "OK",
+            "write": {
+              "errno": 1,
+              "name": "EPERM",
+              "msg": "[Errno 1] Operation not permitted"
+            }
+          },
+          "BLKROSET_then_write": {
+            "blkroset": "OK",
+            "open": "OK",
+            "write": {
+              "errno": 1,
+              "name": "EPERM",
+              "msg": "[Errno 1] Operation not permitted"
+            }
+          },
+          "file_write_/etc/krexa-write-test": {
+            "errno": 30,
+            "name": "EROFS",
+            "msg": "[Errno 30] Read-only file system: '/etc/krexa-write-test'"
+          },
+          "file_write_/usr/krexa-write-test": {
+            "errno": 30,
+            "name": "EROFS",
+            "msg": "[Errno 30] Read-only file system: '/usr/krexa-write-test'"
+          },
+          "file_write_/opt/krexa/krexa-write-test": {
+            "errno": 30,
+            "name": "EROFS",
+            "msg": "[Errno 30] Read-only file system: '/opt/krexa/krexa-write-test'"
+          }
+        },
+        "mnt": {
+          "remount_root_rw": {
+            "errno": 13,
+            "name": "EACCES",
+            "msg": "Permission denied"
+          },
+          "mount_vda_ext4_rw": {
+            "errno": 13,
+            "name": "EACCES",
+            "msg": "Permission denied"
+          },
+          "mount_9p_host": {
+            "errno": 19,
+            "name": "ENODEV",
+            "msg": "No such device"
+          },
+          "mount_virtiofs_host": {
+            "errno": 19,
+            "name": "ENODEV",
+            "msg": "No such device"
+          },
+          "mount_nfs_host": {
+            "errno": 22,
+            "name": "EINVAL",
+            "msg": "Invalid argument"
+          },
+          "mount_tmpfs_in_guest (contained, guest-only)": "OK",
+          "root_still_ro": true
+        },
+        "raw": {
+          "AF_PACKET/SOCK_RAW": {
+            "create": "OK",
+            "bind_eth0": {
+              "errno": 19,
+              "name": "ENODEV",
+              "msg": "[Errno 19] No such device"
+            }
+          },
+          "AF_INET/SOCK_RAW/ICMP": {
+            "create": "OK",
+            "send_1.1.1.1": {
+              "errno": 101,
+              "name": "ENETUNREACH",
+              "msg": "[Errno 101] Network unreachable"
+            }
+          },
+          "AF_INET/SOCK_RAW/RAW": {
+            "create": "OK",
+            "send_1.1.1.1": {
+              "errno": 101,
+              "name": "ENETUNREACH",
+              "msg": "[Errno 101] Network unreachable"
+            }
+          }
+        },
+        "oops": "guest survived the write"
+      },
+      "ms": 13043
+    },
+    {
+      "id": "g",
+      "name": "two VMs at once cannot reach each other (no net; vsock guest-to-guest not routable)",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "distinct CIDs (4, 5)",
+          "pass": true
+        },
+        {
+          "name": "VM1 -> VM2 CID port 6000 (VM2 listening) fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":2022.2,\"errno\":110,\"name\":\"ETIMEDOUT\",\"msg\":\"[Errno 110] Operation timed out\"}"
+        },
+        {
+          "name": "VM1 -> VM2 CID control port 5001 fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":2013.6,\"errno\":110,\"name\":\"ETIMEDOUT\",\"msg\":\"[Errno 110] Operation timed out\"}"
+        },
+        {
+          "name": "VM1 -> VM2 CID port 5000 fails",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":2014,\"errno\":110,\"name\":\"ETIMEDOUT\",\"msg\":\"[Errno 110] Operation timed out\"}"
+        },
+        {
+          "name": "VM2 listener accepted ZERO connections",
+          "pass": true,
+          "detail": "{\"accepted\":0,\"peers\":[]}"
+        },
+        {
+          "name": "VM1 -> host port with no listener fails (host exposes only what we bound)",
+          "pass": true,
+          "detail": "{\"ok\":false,\"ms\":0.1,\"errno\":104,\"name\":\"ECONNRESET\",\"msg\":\"[Errno 104] Connection reset by peer\"}"
+        },
+        {
+          "name": "no IP path either: VM1 has only lo and cannot connect out",
+          "pass": true
+        }
+      ],
+      "evidence": {
+        "toVm2Port6000": {
+          "ok": false,
+          "ms": 2022.2,
+          "errno": 110,
+          "name": "ETIMEDOUT",
+          "msg": "[Errno 110] Operation timed out"
+        },
+        "toVm2Control5001": {
+          "ok": false,
+          "ms": 2013.6,
+          "errno": 110,
+          "name": "ETIMEDOUT",
+          "msg": "[Errno 110] Operation timed out"
+        },
+        "toVm2Gateway5000": {
+          "ok": false,
+          "ms": 2014,
+          "errno": 110,
+          "name": "ETIMEDOUT",
+          "msg": "[Errno 110] Operation timed out"
+        },
+        "toHostUnboundPort": {
+          "ok": false,
+          "ms": 0.1,
+          "errno": 104,
+          "name": "ECONNRESET",
+          "msg": "[Errno 104] Connection reset by peer"
+        },
+        "toLocalCid1": {
+          "ok": false,
+          "ms": 2013.1,
+          "errno": 110,
+          "name": "ETIMEDOUT",
+          "msg": "[Errno 110] Operation timed out"
+        }
+      },
+      "ms": 15290
+    },
+    {
+      "id": "h",
+      "name": "every VM is jailed: unique uid/gid, seccomp on all threads, cgroup limits, own pid+mount ns",
+      "mode": "real-vm",
+      "pass": true,
+      "checks": [
+        {
+          "name": "runs as non-root, per-VM uid/gid (>= 20000), two VMs differ",
+          "pass": true,
+          "detail": "20001 vs 20002"
+        },
+        {
+          "name": "no capabilities (CapEff == 0), NoNewPrivs == 1",
+          "pass": true,
+          "detail": "CapEff=0000000000000000 NoNewPrivs=1"
+        },
+        {
+          "name": "seccomp mode 2 (filter) on the process and every thread",
+          "pass": true,
+          "detail": "[{\"name\":\"firecracker\",\"seccomp\":2},{\"name\":\"fc_api\",\"seccomp\":2},{\"name\":\"fc_vcpu 0\",\"seccomp\":2},{\"name\":\"fc_vcpu 1\",\"seccomp\":2},{\"name\":\"kvm-nx-lpage-re\",\"seccomp\":2}]"
+        },
+        {
+          "name": "--no-seccomp absent from the command line",
+          "pass": true,
+          "detail": "/firecracker --id iso-jfa8-h-1 --start-time-us 3203747907 --start-time-cpu-us 66 --parent-cpu-time-us 2578 --api-sock /run/firecracker.socket --level Warning"
+        },
+        {
+          "name": "own PID namespace and own mount namespace",
+          "pass": true,
+          "detail": "pid:[4026532712] vs pid:[4026531836]"
+        },
+        {
+          "name": "cgroup v2 placement under /firecracker/<id>",
+          "pass": true,
+          "detail": "0::/firecracker/iso-jfa8-h-1"
+        },
+        {
+          "name": "cgroup limits applied (cpu.max 1 CPU, memory.max, pids.max, swap 0)",
+          "pass": true,
+          "detail": "cpu.max=100000 100000 memory.max=268435456 pids.max=64 memory.swap.max=0"
+        },
+        {
+          "name": "firecracker holds no /dev/net/tun fd (no network device)",
+          "pass": true,
+          "detail": "44 fds"
+        },
+        {
+          "name": "the jail root holds only expected files",
+          "pass": true,
+          "detail": "scratch.ext4,vmlinux,v.sock,firecracker,rootfs.ext4,run,firecracker.pid,v.sock_5000,dev,v.sock_5002"
+        }
+      ],
+      "evidence": {
+        "a1": {
+          "pid": 18951,
+          "uids": "20001\t20001\t20001\t20001",
+          "gids": "20001\t20001\t20001\t20001",
+          "seccomp": 2,
+          "noNewPrivs": "1",
+          "capEff": "0000000000000000",
+          "chrootLink": "/",
+          "cgroup": "0::/firecracker/iso-jfa8-h-1",
+          "threads": [
+            {
+              "name": "firecracker",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_api",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_vcpu 0",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_vcpu 1",
+              "seccomp": 2
+            },
+            {
+              "name": "kvm-nx-lpage-re",
+              "seccomp": 2
+            }
+          ],
+          "expectedRoot": "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-h-1/root",
+          "selfPidNs": "pid:[4026531836]",
+          "vmPidNs": "pid:[4026532712]"
+        },
+        "a2": {
+          "pid": 18959,
+          "uids": "20002\t20002\t20002\t20002",
+          "gids": "20002\t20002\t20002\t20002",
+          "seccomp": 2,
+          "noNewPrivs": "1",
+          "capEff": "0000000000000000",
+          "chrootLink": "/",
+          "cgroup": "0::/firecracker/iso-jfa8-h-2",
+          "threads": [
+            {
+              "name": "firecracker",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_api",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_vcpu 0",
+              "seccomp": 2
+            },
+            {
+              "name": "fc_vcpu 1",
+              "seccomp": 2
+            },
+            {
+              "name": "kvm-nx-lpage-re",
+              "seccomp": 2
+            }
+          ],
+          "expectedRoot": "/var/lib/krexa-fc/jail/firecracker/iso-jfa8-h-2/root",
+          "selfPidNs": "pid:[4026531836]",
+          "vmPidNs": "pid:[4026532714]"
+        },
+        "limits": "cpu.max=100000 100000 memory.max=268435456 pids.max=64 memory.swap.max=0"
+      },
+      "ms": 1716
+    }
+  ]
+}

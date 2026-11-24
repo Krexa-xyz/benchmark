@@ -1,0 +1,44 @@
+[
+  {
+    "bench": "cold",
+    "id": "cold_zst",
+    "max": 264.872,
+    "mean": 253.652,
+    "metric": "cold boot to first answered ping (kernel + initramfs zstd)",
+    "min": 245.713,
+    "n": 100,
+    "note": "initramfs.zst 879549 B",
+    "p50": 253.746,
+    "p95": 260.275,
+    "p99": 264.213,
+    "unit": "ms"
+  },
+  {
+    "bench": "cold",
+    "id": "cold_jail",
+    "max": 20.332,
+    "mean": 12.213,
+    "metric": "  of which jailer start to API socket up",
+    "min": 7.643,
+    "n": 100,
+    "note": "",
+    "p50": 11.667,
+    "p95": 17.604,
+    "p99": 19.711,
+    "unit": "ms"
+  },
+  {
+    "bench": "cold",
+    "id": "cold_start",
+    "max": 12.706,
+    "mean": 10.495,
+    "metric": "  of which InstanceStart call",
+    "min": 8.698,
+    "n": 100,
+    "note": "",
+    "p50": 10.42,
+    "p95": 11.887,
+    "p99": 12.289,
+    "unit": "ms"
+  }
+]

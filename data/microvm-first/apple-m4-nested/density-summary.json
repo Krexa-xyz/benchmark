@@ -1,0 +1,10 @@
+{
+  "vms": 28,
+  "stop": "boot p95 doubled: first-10 p95 5195 ms -> last-10 p95 26926 ms at n=28",
+  "sumPssMiB": 1491.7,
+  "sumRssMiB": 1492,
+  "sumCgroupMiB": 1477.3,
+  "perVmPssMiB": 53.3,
+  "memAvailMiB": 9176.1,
+  "loadavg": "14.86 4.72 2.23 3/411 12192"
+}

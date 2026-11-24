@@ -1,0 +1,10 @@
+{
+  "mode": "pool",
+  "wallSeconds": 30.007218708,
+  "cpuUserMs": 60.27,
+  "cpuSystemMs": 40.231,
+  "cpuPercent": 0.33492274301718666,
+  "psCputimeBefore": "0:00.32",
+  "psCputimeAfter": "0:00.43",
+  "rssMB": 44.282142639160156
+}

@@ -1,0 +1,7 @@
+AWS c8i.4xlarge, ap-southeast-2, 2026-11-23
+Nested KVM (CpuOptions.NestedVirtualization=enabled), NOT bare metal
+Ubuntu 24.04 x86_64, 30 GiB RAM, KVM microVM monitor, guest kernel 6.1.188
+Note: summary.md header says "Lima kvm-host"; that text is hardcoded in bench.rs. This host is the one above.
+CPU(s):                                  16
+Model name:                              Intel(R) Xeon(R) 6975P-C
+7.0.0-1018-aws

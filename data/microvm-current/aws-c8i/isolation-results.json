@@ -1,0 +1,1879 @@
+{
+  "at": 1795441002,
+  "results": [
+    {
+      "checks": [
+        {
+          "detail": "{\"errno\":101,\"ms\":0,\"ok\":false}",
+          "name": "TCP 1.1.1.1:443 fails fast with a no-route errno",
+          "pass": true
+        },
+        {
+          "detail": "{\"errno\":101,\"ms\":0,\"ok\":false}",
+          "name": "TCP 169.254.169.254:80 (cloud metadata) fails fast",
+          "pass": true
+        },
+        {
+          "detail": "{\"errno\":101,\"ms\":0,\"ok\":false}",
+          "name": "TCP 10.0.0.1:22 (private range) fails fast",
+          "pass": true
+        },
+        {
+          "detail": "{\"errno\":99,\"ms\":0,\"ok\":false}",
+          "name": "TCP6 [2606:4700:4700::1111]:443 fails",
+          "pass": true
+        },
+        {
+          "detail": "{\"msg\":\"failed to lookup address information: Try again\",\"ok\":false}",
+          "name": "DNS getaddrinfo(example.com) fails",
+          "pass": true
+        },
+        {
+          "detail": "{\"errno\":101,\"ok\":false}",
+          "name": "UDP send to 1.1.1.1:53 fails",
+          "pass": true
+        },
+        {
+          "detail": "[\"lo\"]",
+          "name": "interfaces are only lo (or none)",
+          "pass": true
+        },
+        {
+          "detail": "[\"lo\"]",
+          "name": "/proc/net/dev lists only lo (or none)",
+          "pass": true
+        },
+        {
+          "detail": "[]",
+          "name": "no routes configured",
+          "pass": true
+        },
+        {
+          "detail": "Ok(Object {\"getflags\": Number(0), \"loopback_connect\": Object {\"errno\": Number(0), \"ms\": Number(3), \"ok\": Bool(true)}, \"setflags\": Number(0)})",
+          "name": "positive control: the same connect code SUCCEEDS to a listener on loopback",
+          "pass": true
+        },
+        {
+          "detail": "[\"enp39s0\", \"lo\"] -> [\"enp39s0\", \"lo\"]",
+          "name": "host gained no network interface (no tap)",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "net": {
+            "dns_example.com": {
+              "msg": "failed to lookup address information: Try again",
+              "ok": false
+            },
+            "if_inet6": 0,
+            "ifaces": [
+              "lo"
+            ],
+            "proc_net_dev": [
+              "lo"
+            ],
+            "routes": [],
+            "tcp6_[2606:4700:4700::1111]:443": {
+              "errno": 99,
+              "ms": 0,
+              "ok": false
+            },
+            "tcp_1.1.1.1:443": {
+              "errno": 101,
+              "ms": 0,
+              "ok": false
+            },
+            "tcp_10.0.0.1:22": {
+              "errno": 101,
+              "ms": 0,
+              "ok": false
+            },
+            "tcp_127.0.0.1:5000_no_listener_check_lo": {
+              "errno": 101,
+              "ms": 0,
+              "ok": false
+            },
+            "tcp_169.254.169.254:80": {
+              "errno": 101,
+              "ms": 0,
+              "ok": false
+            },
+            "udp_1.1.1.1:53": {
+              "errno": 101,
+              "ok": false
+            }
+          }
+        }
+      ],
+      "id": "a",
+      "mode": "real-vm",
+      "ms": 5145,
+      "name": "no network: only lo, DNS/TCP/metadata fail",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "29 paths probed, all absent",
+          "name": "none of the host paths exist in the guest",
+          "pass": true
+        },
+        {
+          "detail": "[]",
+          "name": "no host-named file anywhere in the guest filesystem",
+          "pass": true
+        },
+        {
+          "detail": "tree=[\"/init\", \"/root\", \"/dev\", \"/dev/vsock\", \"/dev/kmsg\", \"/dev/urandom\", \"/dev/null\", \"/dev/console\"] unexpected=[]",
+          "name": "guest filesystem is exactly /init + /proc + /dev nodes (+ the kernel's own /root and /dev/kmsg; nothing else)",
+          "pass": true
+        },
+        {
+          "detail": "partitions=[] sys/block=[{\"name\":\"loop0\",\"sectors\":0},{\"name\":\"loop1\",\"sectors\":0},{\"name\":\"loop2\",\"sectors\":0},{\"name\":\"loop3\",\"sectors\":0},{\"name\":\"loop4\",\"sectors\":0},{\"name\":\"loop5\",\"sectors\":0},{\"name\":\"loop6\",\"sectors\":0},{\"name\":\"loop7\",\"sectors\":0}]",
+          "name": "no block device with any capacity (no disk attached; unbound loop nodes of the CI kernel have 0 sectors)",
+          "pass": true
+        },
+        {
+          "detail": "[\"/sys/devices/platform/LNRO0005:00/virtio0\"]",
+          "name": "only virtio device is the vsock (exactly 1 virtio device)",
+          "pass": true
+        },
+        {
+          "detail": "[\"rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0\", \"proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\", \"sysfs /sys sysfs rw,relatime 0 0\"]",
+          "name": "no virtiofs/9p/nfs/overlay/fuse/ext4 mount",
+          "pass": true
+        },
+        {
+          "detail": "\"rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0\"",
+          "name": "root is the initramfs (rootfs), not a disk",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "b",
+      "mode": "real-vm",
+      "ms": 121,
+      "name": "no host files visible; no disk; initramfs only",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "expected=[\"hex64_0x\", \"bare_hex64\", \"pem_private_key\", \"aws_key\", \"sk_token\", \"base58_key\", \"keypair_json\", \"secret_assign\"] file=[\"aws_key\", \"bare_hex64\", \"base58_key\", \"hex64_0x\", \"keypair_json\", \"pem_private_key\", \"secret_assign\", \"sk_token\"] mem=[\"aws_key\", \"bare_hex64\", \"base58_key\", \"hex64_0x\", \"keypair_json\", \"pem_private_key\", \"secret_assign\", \"sk_token\"]",
+          "name": "guest scanner control: a planted fake of every pattern is found in a file AND in guest memory",
+          "pass": true
+        },
+        {
+          "detail": "2 files / 2217156 bytes scanned; hits=[]",
+          "name": "zero secret-pattern hits across the guest filesystem",
+          "pass": true
+        },
+        {
+          "detail": "cmdline=\"8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5\" hits=[]",
+          "name": "zero hits in /proc/*/environ, /proc/*/cmdline, /proc/cmdline",
+          "pass": true
+        },
+        {
+          "detail": "8970240 bytes of mappings scanned; hits=[]",
+          "name": "zero hits in the guest process's own memory",
+          "pass": true
+        },
+        {
+          "detail": "patterns found={\"pem_private_key\", \"hex64_0x\", \"sk_token\", \"secret_assign\", \"keypair_json\", \"aws_key\", \"base58_key\", \"bare_hex64\"} canary=true",
+          "name": "HOST whole-RAM scan control: planted fakes + canary are found in the control VM's RAM",
+          "pass": true
+        },
+        {
+          "detail": "100663296 bytes (all guest RAM) scanned; hits=[] canary=false",
+          "name": "HOST whole-RAM scan of a clean VM: zero pattern hits and no canary (host env never reaches the guest)",
+          "pass": true
+        },
+        {
+          "detail": "[]",
+          "name": "template memory file: zero pattern hits",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "c",
+      "mode": "real-vm",
+      "ms": 2214,
+      "name": "no keys in guest fs/env/cmdline/RAM (whole-RAM host scan, controls)",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "\"/var/lib/krexa-box/templates/lc\"",
+          "name": "template built from a VM carrying a marker is root-owned and read-only (0444)",
+          "pass": true
+        },
+        {
+          "detail": "{\"file\":\"marker-35b1-5ec4\",\"heap\":[\"marker-35b1-5ec4\"],\"tmp_names\":[\"dev\",\"init\",\"marker\",\"proc\",\"root\",\"sys\"]}",
+          "name": "restore from that template continues the snapshotted state (marker present: same lineage, expected)",
+          "pass": true
+        },
+        {
+          "detail": "(true, true, true)",
+          "name": "original VM fully gone after teardown (process, jail dir, cgroup)",
+          "pass": true
+        },
+        {
+          "detail": "{\"file\":\"\",\"heap\":[],\"tmp_names\":[\"dev\",\"init\",\"proc\",\"root\",\"sys\"]}",
+          "name": "a FRESH restore from the normal template does not see the marker",
+          "pass": true
+        },
+        {
+          "detail": "discarded=true gone=(true, true, true)",
+          "name": "DISCARD: the used VM was killed and its jail/cgroup removed",
+          "pass": true
+        },
+        {
+          "detail": "kbr5b1-0 -> kbr5b1-1; {\"file\":\"\",\"heap\":[],\"tmp_names\":[\"dev\",\"init\",\"proc\",\"root\",\"sys\"]}",
+          "name": "DISCARD: the next tenant got a different VM with no trace of tenant A's state (heap + file)",
+          "pass": true
+        },
+        {
+          "detail": "ondemand:kbr5b1-0 -> keep:kbr5b1-0",
+          "name": "KEEP: same tenant gets its own VM back (state present: expected, same tenant)",
+          "pass": true
+        },
+        {
+          "detail": "tenantB got ondemand:kbr5b1-1; {\"file\":\"\",\"heap\":[],\"tmp_names\":[\"dev\",\"init\",\"proc\",\"root\",\"sys\"]}",
+          "name": "KEEP: a different tenant never receives another tenant's VM and sees none of its state",
+          "pass": true
+        },
+        {
+          "detail": "keep:kbr5b1-0",
+          "name": "KEEP: tenant A still gets ITS parked VM after tenant B ran",
+          "pass": true
+        },
+        {
+          "detail": "Some(\"timeout\") discarded=true gone=(true, true, true)",
+          "name": "KEEP: a wall-clock overrun poisons the VM and it is discarded anyway",
+          "pass": true
+        },
+        {
+          "detail": "[]",
+          "name": "marker absent from every file under jail/ and templates/ after cleanup",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "d",
+      "mode": "real-vm",
+      "ms": 1732,
+      "name": "snapshot/restore lifecycle + no state leak after recycle (discard, keep)",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "{\"child_mib_before_death\":54,\"exited\":false,\"guest_mem_available\":\"MemAvailable:      55272 kB\",\"signal\":9,\"timed_out\":false}",
+          "name": "memory bomb: the allocating child was killed inside the guest (OOM) and the agent survived",
+          "pass": true
+        },
+        {
+          "detail": "peak 59 MiB / max 160 MiB",
+          "name": "memory bomb: VM host cgroup peak stayed within memory.max",
+          "pass": true
+        },
+        {
+          "detail": "before 30427 MiB, min 30367 MiB",
+          "name": "memory bomb: host MemAvailable dropped < 400 MiB at worst",
+          "pass": true
+        },
+        {
+          "detail": "3.01 CPU-s in 6.03 s = 0.50 CPUs",
+          "name": "cpu spin: VM used <= 0.65 CPU under a 0.5 CPU quota while 2 threads spun",
+          "pass": true
+        },
+        {
+          "detail": "throttled_usec 0 -> 3017114",
+          "name": "cpu spin: the cgroup actually throttled the VM",
+          "pass": true
+        },
+        {
+          "detail": "max 40 MiB (guest RAM 96 MiB), oom_kill=1, call=Err(\"frame header: early eof\")",
+          "name": "host cgroup memory.max below the guest working set binds: the HOST kernel OOM-kills the VM, nothing else",
+          "pass": true
+        },
+        {
+          "detail": "30412 -> 30406 MiB",
+          "name": "host unaffected by that kill: MemAvailable moved < 100 MiB",
+          "pass": true
+        },
+        {
+          "detail": "baseline p50 0.8 p99 3.2; bomb n=11 p50 0.9 p99 1.6 max 1.6 ms",
+          "name": "neighbour VM ping p99 during the bomb < 250 ms",
+          "pass": true
+        },
+        {
+          "detail": "spin n=274 p50 0.8 p99 1.5 ms",
+          "name": "neighbour VM ping p99 during the spin < 250 ms",
+          "pass": true
+        },
+        {
+          "detail": "0.4 ms",
+          "name": "neighbour VM still answers after the host-side OOM kill",
+          "pass": true
+        },
+        {
+          "detail": "p99 2.0 ms, max 2.1 ms, n=634",
+          "name": "host event-loop lag p99 < 100 ms throughout",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-2": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-3": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "e",
+      "mode": "real-vm",
+      "ms": 7200,
+      "name": "memory bomb + CPU spin contained; host cgroup limit binds; neighbour healthy",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "\"000001ffffffffff\"",
+          "name": "the attack ran as root WITH capabilities (probes guest, drop_caps=false)",
+          "pass": true
+        },
+        {
+          "detail": "{\"agent_alive\":true,\"baseline_procs\":0,\"peak_procs\":0,\"procs_after_cleanup\":0}",
+          "name": "fork bomb contained: guest recovered after the group kill, agent + VM alive",
+          "pass": true
+        },
+        {
+          "detail": "{\"kmem\":{\"mknod\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"r\":{\"open\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"write_offset0\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false}},\"write_offset0\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false}},\"mem\":{\"mknod\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"r\":{\"open\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"write_offset0\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false}},\"write_offset0\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false}}}",
+          "name": "/dev/mem, /dev/kmem: no write succeeded",
+          "pass": true
+        },
+        {
+          "detail": "{\"block_nodes_in_dev\":[],\"mount_9p_host\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"mount_ext4_vda\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"mount_nfs_host\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false},\"mount_virtiofs_host\":{\"errno\":2,\"msg\":\"No such file or directory (os error 2)\",\"ok\":false}}",
+          "name": "mount of 9p, virtiofs, nfs, a block device all fail",
+          "pass": true
+        },
+        {
+          "detail": "[]",
+          "name": "no block device node exists to mount (dev has only console/null/urandom + our probe nodes)",
+          "pass": true
+        },
+        {
+          "detail": "{\"af_packet_socket\":{\"errno\":2,\"ok\":true},\"eth0_index\":0,\"icmp_raw_socket\":{\"errno\":19,\"ok\":true},\"send_1.1.1.1\":\"errno 101\"}",
+          "name": "raw sockets: nothing leaves (no eth0, ICMP raw send fails)",
+          "pass": true
+        },
+        {
+          "detail": "mem sha256 18c8925e39bb9a420e8411f7c95718f2201a7e232a8e173909b4642e424934f4",
+          "name": "template memory + vmstate files byte-identical after all attacks (guest cannot touch host files)",
+          "pass": true
+        },
+        {
+          "detail": "13997 / \"40000\\t40000\\t40000\\t40000\"",
+          "name": "host jail unchanged by the attacks (same pid, uid, seccomp 2)",
+          "pass": true
+        },
+        {
+          "detail": "victim kbr5b1-2: still running (wedged); call=Ok(None); neighbour ping ok=true",
+          "name": "guest kernel OOPS (/dev/port write): neighbour VM unaffected, host alive, victim contained",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-2": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "f",
+      "mode": "real-vm",
+      "ms": 6851,
+      "name": "escape attempts as root with caps: fork bomb, /dev/mem, mounts, raw sockets, kernel oops",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "v1 cid=3 v2 cid=3",
+          "name": "both VMs report a vsock CID (restored VMs inherit the template CID; vsock is per-VM, not a shared bus)",
+          "pass": true
+        },
+        {
+          "detail": "{\"accepted\":0,\"listened_s\":12}",
+          "name": "v2's listener (port 6000) accepted ZERO connections from v1's attempts at any CID",
+          "pass": true
+        },
+        {
+          "detail": "connected: []; all={\"cid1:6000\":{\"errno\":110,\"ms\":2012,\"ok\":false},\"cid2:5000\":{\"errno\":104,\"ms\":0,\"ok\":false},\"cid2:5999\":{\"errno\":104,\"ms\":0,\"ok\":false},\"cid2:6000\":{\"errno\":104,\"ms\":0,\"ok\":false},\"cid3:5000\":{\"errno\":19,\"ms\":0,\"ok\":false},\"cid3:6000\":{\"errno\":19,\"ms\":0,\"ok\":false},\"cid3:6001\":{\"errno\":19,\"ms\":0,\"ok\":false},\"cid4294967295:6000\":{\"errno\":110,\"ms\":2014,\"ok\":false},\"cid4:5000\":{\"errno\":110,\"ms\":2013,\"ok\":false},\"cid4:6000\":{\"errno\":110,\"ms\":2021,\"ok\":false},\"cid5:6000\":{\"errno\":110,\"ms\":2014,\"ok\":false}}",
+          "name": "v1 -> any CID/port other than the host gateway fails",
+          "pass": true
+        },
+        {
+          "detail": "v1 log 2, v2 log 0; liar -> {\"reply\":{\"verdict\":{\"allowed\":false,\"rule\":\"invalid\"}}}; honest -> {\"reply\":{\"verdict\":{\"allowed\":true,\"rule\":\"ok\"}}}",
+          "name": "gateway frame from v1 was attributed to v1's tenant only (the guest's claimed `agent` field is ignored)",
+          "pass": true
+        },
+        {
+          "detail": "{\"seq\":1,\"ts\":1795440996082,\"agent\":\"agent-v1\",\"intent\":{\"venue\":\"eval\",\"market\":\"BTC-USD\",\"side\":\"buy\",\"size\":1.0,\"maxPrice\":100.0},\"verdict\":{\"kind\":\"allow\",\"rule\":\"pass\",\"usd\":100.0},\"prev\":\"bd0af7dff6b379db517ba76192961793746ae9f2fd8299d062e9d728f6814ef4\"} | {\"seq\":0,\"ts\":1795440996080,\"agent\":\"agent-v1\",\"intent\":null,\"verdict\":{\"kind\":\"refuse\",\"rule\":\"parse\",\"reason\":\"unknown_field: 1 unknown field(s)\"},\"prev\":\"0000000000000000000000000000000000000000000000000000000000000000\"}",
+          "name": "audit log carries only v1's identity for those intents",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 0,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "g",
+      "mode": "real-vm",
+      "ms": 12141,
+      "name": "two VMs cannot reach each other via vsock; identity bound by socket",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "40000 vs 40001",
+          "name": "non-root, per-VM uid/gid >= 40000, two VMs differ",
+          "pass": true
+        },
+        {
+          "detail": "CapEff=\"0000000000000000\" NoNewPrivs=\"1\"",
+          "name": "no capabilities (CapEff == 0) and NoNewPrivs == 1",
+          "pass": true
+        },
+        {
+          "detail": "4 threads: [{\"name\":\"vmm\",\"seccomp\":2},{\"name\":\"vmm_api\",\"seccomp\":2},{\"name\":\"vmm_vcpu 0\",\"seccomp\":2},{\"name\":\"kvm-nx-lpage-re\",\"seccomp\":2}]",
+          "name": "seccomp mode 2 (filter) on the process and on EVERY thread",
+          "pass": true
+        },
+        {
+          "detail": "/vmm --id kbr5b1-0 --start-time-us 3677441622 --start-time-cpu-us 43 --parent-cpu-time-us 2607 --api-sock /run/vmm.socket --level Warning ",
+          "name": "--no-seccomp absent from the vmm command line",
+          "pass": true
+        },
+        {
+          "detail": "pid \"pid:[4026532712]\" vs \"pid:[4026531836]\"",
+          "name": "own PID namespace and own mount namespace",
+          "pass": true
+        },
+        {
+          "detail": "0::/vmm/kbr5b1-0",
+          "name": "cgroup v2 placement under /vmm/<id>",
+          "pass": true
+        },
+        {
+          "detail": "cpu.max=100000 100000 memory.max=167772160 pids.max=32 memory.swap.max=0",
+          "name": "cgroup limits applied: cpu.max 1 CPU, memory.max, pids.max, swap 0",
+          "pass": true
+        },
+        {
+          "detail": "32 fds",
+          "name": "vmm holds no /dev/net/tun fd (no network device exists)",
+          "pass": true
+        },
+        {
+          "detail": "snap.mem,v.sock,vmm,v.sock_5001,snap.vmstate,run,vmm.pid,dev",
+          "name": "the jail root holds only the expected files",
+          "pass": true
+        },
+        {
+          "detail": "template ino 793470 / jail ino 793470",
+          "name": "guest memory is the shared template file via a hard link (same inode, MAP_PRIVATE copy-on-write)",
+          "pass": true
+        },
+        {
+          "detail": "Ok(ExitStatus(unix_wait_status(512)))",
+          "name": "the VM's own uid cannot write the shared memory file (EACCES)",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "h",
+      "mode": "real-vm",
+      "ms": 155,
+      "name": "jailer: uid, seccomp 2 on all threads, cgroup limits, ns, no tun fd",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "\"vmm\"",
+          "name": "every observation is from a real, jailed vmm (release image has no probe ops: host-side proof)",
+          "pass": true
+        },
+        {
+          "detail": "(None, Some(\"not initialised\"))",
+          "name": "run before init is refused (tenant code never runs before the capability drop)",
+          "pass": true
+        },
+        {
+          "detail": "(None, Some(\"unknown op probe_whoami\")) | (None, Some(\"unknown op probe_net\")) | (None, Some(\"unknown op probe_caps\"))",
+          "name": "release guest REFUSES every probe op",
+          "pass": true
+        },
+        {
+          "detail": "(None, Some(\"already initialised\")) | (None, Some(\"already initialised\"))",
+          "name": "init succeeds once and reports caps dropped; a second init is refused; drop_caps=false is not honoured",
+          "pass": true
+        },
+        {
+          "detail": "release cpio 2045952 B, probes cpio 2217984 B; needles [\"loopback_connect\", \"child_mib_before_death\", \"fs_bytes_scanned\", \"procs_after_cleanup\"]",
+          "name": "release initramfs contains none of the probe-only strings; the probes initramfs contains all (control)",
+          "pass": true
+        },
+        {
+          "detail": "(Some(\"{\\\"action\\\":\\\"buy\\\",\\\"reason\\\":\\\"dip\\\"}\"), None)",
+          "name": "real engine in the VM: DIP strategy on a dip returns buy",
+          "pass": true
+        },
+        {
+          "detail": "(Some(\"{\\\"action\\\":\\\"hold\\\",\\\"reason\\\":\\\"strategy error, holding: Error: Date.now() is disabled: strategies must be deterministic (line 1)\\\",\\\"error\\\":\\\"Error: Date.now() is disabled: strategies must be deterministic (line 1)\\\"}\"), None) | (Some(\"{\\\"action\\\":\\\"hold\\\",\\\"reason\\\":\\\"strategy error, holding: Error: Math.random() is disabled: strategies must be deterministic (line 1)\\\",\\\"error\\\":\\\"Error: Math.random() is disabled: strategies must be deterministic (line 1)\\\"}\"), None)",
+          "name": "determinism contract holds in the VM: Date.now() and Math.random() are refused",
+          "pass": true
+        },
+        {
+          "detail": "251 ms: (Some(\"{\\\"action\\\":\\\"hold\\\",\\\"reason\\\":\\\"strategy error, holding: InternalError: interrupted (line 1)\\\",\\\"error\\\":\\\"InternalError: interrupted (line 1)\\\"}\"), None)",
+          "name": "infinite loop is stopped by the engine's CPU budget (well inside the wall clock) and the VM stays healthy",
+          "pass": true
+        },
+        {
+          "detail": "(Some(\"{\\\"meta\\\":{\\\"cadence\\\":\\\"hour\\\",\\\"timeframes\\\":[\\\"day\\\"],\\\"lookback\\\":120,\\\"symbols\\\":[\\\"SOL\\\",\\\"BTC\\\"]}}\"), None)",
+          "name": "meta op works in the VM (cadence/symbols read back)",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [],
+      "id": "i",
+      "mode": "real-vm",
+      "ms": 367,
+      "name": "production image: no probe ops, init once, real engine, determinism",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "300 ms, Some(\"timeout\")",
+          "name": "guest reports `timeout` at its own wall clock (300 ms), not when the worker finishes (3 s)",
+          "pass": true
+        },
+        {
+          "detail": "Some(\"poisoned\")",
+          "name": "after an overrun the guest refuses further work (`poisoned`): the host must discard it",
+          "pass": true
+        },
+        {
+          "detail": "(true, true, true)",
+          "name": "host kills the VM: process, jail and cgroup all gone",
+          "pass": true
+        },
+        {
+          "detail": "600 ms, Some(\"guest reply timeout after 600ms\"), gone=(true, true, true)",
+          "name": "host-side deadline: a guest that never replies is abandoned at the host's timeout (600 ms) and killed",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        },
+        {
+          "whoami:kbr5b1-0": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "j",
+      "mode": "real-vm",
+      "ms": 1031,
+      "name": "wall clock: guest timeout, poisoned, host kills the VM",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "Some(Object {\"verdict\": Object {\"allowed\": Bool(true), \"rule\": String(\"ok\")}}) [Object {\"intent\": Object {\"market\": String(\"BTC-USD\"), \"maxPrice\": Number(100.0), \"side\": String(\"buy\"), \"size\": Number(1.0), \"venue\": String(\"eval\")}, \"rule\": String(\"pass\"), \"usd\": Number(100.0), \"verdict\": String(\"allow\")}] err=None",
+          "name": "a buy decision becomes ONE intent through guard: allowed for a permitted market",
+          "pass": true
+        },
+        {
+          "detail": "Some(Object {\"verdict\": Object {\"allowed\": Bool(false), \"rule\": String(\"market\")}}) [Object {\"intent\": Object {\"market\": String(\"BTC-USD\"), \"maxPrice\": Number(100.0), \"side\": String(\"buy\"), \"size\": Number(1.0), \"venue\": String(\"eval\")}, \"reason\": String(\"BTC-USD is not on this agent's allowed market list\"), \"rule\": String(\"allowed_market\"), \"verdict\": String(\"refuse\")}]",
+          "name": "the same decision is refused for a market outside the owner's list; the guest sees only allowed/denied + a coarse word",
+          "pass": true
+        },
+        {
+          "detail": "Some(\"{\\\"action\\\":\\\"buy\\\",\\\"reason\\\":\\\"dip\\\"}\")",
+          "name": "without an order template no intent is emitted",
+          "pass": true
+        },
+        {
+          "detail": "{\"reply\":{\"verdict\":{\"allowed\":false,\"rule\":\"invalid\"}}}",
+          "name": "intent from a VM with no tenant bound is refused (fail closed)",
+          "pass": true
+        },
+        {
+          "detail": "big={\"read_err\":null,\"reply\":null,\"write\":\"ok\"} stall={\"read_err\":null,\"reply\":null,\"write\":\"ok\"} junk={\"read_err\":null,\"reply\":\"{\\\"verdict\\\":{\\\"allowed\\\":false,\\\"rule\\\":\\\"invalid\\\"}}\",\"write\":\"ok\"} over={\"read_err\":null,\"reply\":null,\"write\":\"ok\"}",
+          "name": "hostile frames: oversize length claim, stall, garbage JSON, over-cap body all end without a grant",
+          "pass": true
+        },
+        {
+          "detail": "{\"reply\":{\"verdict\":{\"allowed\":false,\"rule\":\"invalid\"}}} {\"reply\":{\"verdict\":{\"allowed\":false,\"rule\":\"invalid\"}}} {\"reply\":{\"verdict\":{\"allowed\":false,\"rule\":\"invalid\"}}}",
+          "name": "unknown field, negative size, 1e999 size: refused",
+          "pass": true
+        },
+        {
+          "detail": "rss 6780 -> 6784 KiB",
+          "name": "host RSS grew < 8 MiB across the hostile frames (no unbounded read) and the guest + VM are still up",
+          "pass": true
+        },
+        {
+          "detail": "Ok(7) before=2 after=7",
+          "name": "audit hash chain verifies after all of it, and grew by the intents that reached guard",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "k",
+      "mode": "real-vm",
+      "ms": 2216,
+      "name": "intent path through guard + bounded reads from a hostile guest",
+      "pass": true
+    },
+    {
+      "checks": [
+        {
+          "detail": "200 {\"err\":null,\"intents\":[{\"intent\":{\"market\":\"BTC-USD\",\"maxPrice\":100.0,\"side\":\"buy\",\"size\":1.0,\"venue\":\"eval\"},\"rule\":\"pass\",\"usd\":100.0,\"verdict\":\"allow\"}],\"out\":\"{\\\"action\\\":\\\"buy\\\",\\\"reason\\\":\\\"dip\\\"}\",\"timing\":{\"pick_us\":0,\"prep_us\":0,\"rtt_us\":1565,\"source\":\"pool\",\"total_us\":1574,\"vm\":\"kbr5b1-0\",\"vm_discarded\":true},\"verdict\":{\"verdict\":{\"allowed\":true,\"rule\":\"ok\"}}}",
+          "name": "POST /v1/decide over the unix socket returns the decision + guard verdict",
+          "pass": true
+        },
+        {
+          "detail": "200 {\"decides\":1,\"discarded\":1,\"fill_errors\":0,\"filling\":1,\"fresh\":0,\"from_keep\":0,\"from_pool\":1,\"kept\":0,\"mode\":\"Idle\",\"on_demand\":0,\"parked\":0,\"policy\":\"Discard\",\"target\":1,\"template\":\"probes\"}",
+          "name": "GET /v1/pool answers; the decide came from the warm pool",
+          "pass": true
+        },
+        {
+          "detail": "400",
+          "name": "a path-like tenant id is rejected with 400",
+          "pass": true
+        },
+        {
+          "detail": "200 {\"head\":\"be3cae86e7a07c79ae266a8f513fc42ca90b9573f23e4521aa719cefff72755a\",\"ok\":true,\"records\":8}",
+          "name": "GET /v1/audit verifies the hash chain",
+          "pass": true
+        },
+        {
+          "detail": "mode 600, inet sockets owned by this process: []",
+          "name": "API socket is mode 0600 and the daemon process holds NO tcp/udp socket",
+          "pass": true
+        }
+      ],
+      "error": null,
+      "evidence": [
+        {
+          "whoami:kbr5b1-1": {
+            "block_devices": [
+              {
+                "name": "loop0",
+                "sectors": 0
+              },
+              {
+                "name": "loop1",
+                "sectors": 0
+              },
+              {
+                "name": "loop2",
+                "sectors": 0
+              },
+              {
+                "name": "loop3",
+                "sectors": 0
+              },
+              {
+                "name": "loop4",
+                "sectors": 0
+              },
+              {
+                "name": "loop5",
+                "sectors": 0
+              },
+              {
+                "name": "loop6",
+                "sectors": 0
+              },
+              {
+                "name": "loop7",
+                "sectors": 0
+              }
+            ],
+            "cmdline": "8250.nr_uarts=0 reboot=k panic=1 pci=off nomodule quiet loglevel=0 random.trust_cpu=on rdinit=/init pci=off virtio_mmio.device=4K@0xc0001000:5",
+            "machine": "x86_64",
+            "mem_total_kib": "MemTotal:          73984 kB",
+            "net_ifaces": [
+              "lo"
+            ],
+            "pid": 1,
+            "release": "6.1.188+",
+            "root_fs": "rootfs / rootfs rw,size=33540k,nr_inodes=8385 0 0",
+            "uid": 65534,
+            "virtio_devices": [
+              "/sys/devices/platform/LNRO0005:00/virtio0"
+            ],
+            "vsock_cid": 3
+          }
+        }
+      ],
+      "id": "l",
+      "mode": "real-vm",
+      "ms": 220,
+      "name": "HTTP API on a unix socket only",
+      "pass": true
+    }
+  ]
+}
